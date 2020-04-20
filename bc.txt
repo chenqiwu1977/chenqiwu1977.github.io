@@ -535,8 +535,8 @@ Nat Geo,http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
 Nat Geo People,http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
 Nat Geo Wild,http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
 CR,#genre#
-HOT頻道,mitv://147.135.39.171:9906/5d62c8e400006876bec309d60e55105e.ts
-HAPPY,mitv://147.135.39.171:9906/5d62c8dc0008e306bec2ecb910cd0c7b.ts
+HOT頻道,p2p://147.135.39.171:9906/5d62c8e400006876bec309d60e55105e.ts
+HAPPY,p2p://147.135.39.171:9906/5d62c8dc0008e306bec2ecb910cd0c7b.ts
 彩虹E台,mitv://147.135.39.171:9906/5d62c8de00004dc2bec2f2561bbf6705.ts
 彩虹電影台,mitv://147.135.39.171:9906/5d62c8dc000df7d6bec2ee106b970539.ts
 K頻道,mitv://147.135.39.171:9906/5d62c8dc000c3d54bec2ed934ec424e9.ts
@@ -546,4 +546,4 @@ K頻道,mitv://147.135.39.171:9906/5d62c8dc000c3d54bec2ed934ec424e9.ts
 潘朵啦玩美台,mitv://147.135.39.171:9906/5d62c8dc000429c3bec2eb801b3b6690.ts
 潘朵啦粉紅台,mitv://147.135.39.171:9906/5d62c8db000e6a46bec2ea382d07181c.ts
 驚豔成人電影台,mitv://147.135.39.171:9906/5d62c8dc0002a0dabec2eb22406c4595.ts
-極限電影台,mitv://147.135.39.171:9906/5d62c8dc0001141fbec2eab562ef2540.ts
+極限電影台,p2p://147.135.39.171:9906/5d62c8dc0001141fbec2eab562ef2540.ts
