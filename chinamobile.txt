@@ -282,24 +282,9 @@ CCTV4K,http://60.255.149.209/tslive/c214_scc_20190618_pr3jsp04_original_r10/c214
 青海卫视HD,http://live.geermurm.com/qhws/sd/live.m3u8#http://live.geermurm.com/ggpd/sd/live.m3u8
 宁夏卫视,http://player.200877926.top/17/0/hogem3u8.php?tv=ningxia&id=6
 云南卫视,http://cdn.chances.com.cn/channels/yntv/ynws/m3u8:sd/
-亚旅卫视,http://hls.jingchangkan.tv/jingchangkan/156722738_K0V4/index.m3u8
+新疆卫视,http://chenqiwu.ueuo.com/xjtv.php?id=1
 海峡卫视,rtsp://183.252.176.54:554/PLTV/88888888/224/3221226128/10000100000000060000000002434539_0.smil#http://player.ioioz.com/18/tv.php?tv=fjtv&id=hxws#http://player.200877926.top/17/fj/fjtvm3u8.php?id=3
 福建新闻,rtsp://183.252.176.54:554/PLTV/88888888/224/3221226116/10000100000000060000000002358068_0.smil
-
-CNC新闻,http://livecdn1.news.cn/cnccn/manifest.m3u8
-浙江卫视,http://yf.m.l.cztv.com/channels/lantian/channel01/1080p.m3u8?
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-浙江钱江,http://yf.m.l.cztv.com/channels/lantian/channel02/1080p.m3u8?
-浙江生活,http://yf.m.l.cztv.com/channels/lantian/channel03/1080p.m3u8?
-浙江教育科技,http://yf.m.l.cztv.com/channels/lantian/channel04/1080p.m3u8?
-浙江影视娱乐,http://yf.m.l.cztv.com/channels/lantian/channel05/1080p.m3u8?
-浙江民生休闲,http://yf.m.l.cztv.com/channels/lantian/channel06/1080p.m3u8?
-浙江公共新闻,http://yf.m.l.cztv.com/channels/lantian/channel07/1080p.m3u8?
-浙江少儿,http://yf.m.l.cztv.com/channels/lantian/channel08/1080p.m3u8?
-浙江留学世界,http://yf.m.l.cztv.com/channels/lantian/channel09/1080p.m3u8?
-浙江国际,http://yf.m.l.cztv.com/channels/lantian/channel10/1080p.m3u8?
-浙江好易购,http://yf.m.l.cztv.com/channels/lantian/channel11/1080p.m3u8?
-浙江数码时代,http://yf.m.l.cztv.com/channels/lantian/channel12/1080p.m3u8?
 寻星网电影,http://59.56.75.93/live.aishang.ctlcdn.com/00000110240279_1/encoder/0/playlist.m3u8?CONTENTID=00000110240279_1
 CHC家庭影院,http://59.56.75.93/live.aishang.ctlcdn.com/00000110240323_1/encoder/0/playlist.m3u8?CONTENTID=00000110240323_1
 CHC动作电影,http://59.56.75.93/live.aishang.ctlcdn.com/00000110240324_1/encoder/0/playlist.m3u8?CONTENTID=00000110240324_1
@@ -393,7 +378,6 @@ iHOT爱历史,http://101.71.255.229:6610/zjhs/2/10121/index.m3u8?virtualDomain=z
 全纪实,http://124.75.27.3:8114/Fsv_otype=1&FvSeid=&Fsv_filetype=1&Fsv_ctype=lives&Fsv_chan_hls_se_idx=49&Provider_id=&Pcontent_id=
 新视觉,http://sk.live.otvcloud.com/otv/skcc/live/channel43082/index.m3u8?k=&t=&UID=#http://125.210.152.18:9090/live/XSJHD_H265.m3u8?uidgemini=z1J6SSaoVQNY9lEOPH==#http://183.207.255.190:80/live/program/live/xsjhd/4000000/mnf.m3u8
 广东体育,http://ml.fzszyx.com/tvshow.php?id=165_3 #https://116.77.72.195/streams/d/gdty/playlist.m3u8
-
 广东综艺4K,http://nclive.grtn.cn/4K/sd/live.m3u8
 广东珠江,http://nclive.grtn.cn/zjpd/sd/live.m3u8
 快乐垂钓HD,http://zszb.xyz/sctv.php?uid=4000&id=klcdhd
@@ -558,3 +542,16 @@ iQIYI,http://bohi321.hk77.ok188.top/smart.php?playurl=http://185.180.221.194:827
 Nat Geo,http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
 Nat Geo People,http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
 Nat Geo Wild,http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
+mitv,#genre#
+HOT頻道,mitv://147.135.39.171:9906/5d62c8e400006876bec309d60e55105e.ts
+HAPPY,mitv://147.135.39.171:9906/5d62c8dc0008e306bec2ecb910cd0c7b.ts
+彩虹E台,mitv://147.135.39.171:9906/5d62c8de00004dc2bec2f2561bbf6705.ts
+彩虹電影台,mitv://147.135.39.171:9906/5d62c8dc000df7d6bec2ee106b970539.ts
+K頻道,mitv://147.135.39.171:9906/5d62c8dc000c3d54bec2ed934ec424e9.ts
+松視1,mitv://147.135.39.171:9906/5d62c8dc000a95e6bec2ed2671c30c59.ts
+松視2,mitv://147.135.39.171:9906/5d62c8dc000761bdbec2ec5b23fc6993.ts
+松視3,mitv://147.135.39.171:9906/5d62c8dc0005c991bec2ebed17f13bc8.ts
+潘朵啦玩美台,mitv://147.135.39.171:9906/5d62c8dc000429c3bec2eb801b3b6690.ts
+潘朵啦粉紅台,mitv://147.135.39.171:9906/5d62c8db000e6a46bec2ea382d07181c.ts
+驚豔成人電影台,mitv://147.135.39.171:9906/5d62c8dc0002a0dabec2eb22406c4595.ts
+極限電影台,mitv://147.135.39.171:9906/5d62c8dc0001141fbec2eab562ef2540.ts
