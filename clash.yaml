@@ -1,4 +1,4 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
@@ -31,6 +31,7 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
+  - {name: 美国000, server: us.accessoutside.tech, port: 443,  type: vmess, uuid: d8d5d54a-c50a-4090-a21a-88d252e43a78, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers:  {Host: us.accessoutside.tech}}
   - {name: 美国001, server: 23.225.178.211, port: 443,  type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers:  {Host: www.43642.xyz}}
   - {name: 美国002, server: 137.175.35.1, port: 443,  type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers:  {Host: www.4336705.xyz}}
   - {name: 美国003, server: 198.2.217.236, port: 443,  type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers:  {Host: www.1497244.xyz}}
@@ -104,6 +105,7 @@ Proxy Group:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -177,6 +179,7 @@ Proxy Group:
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -249,6 +252,7 @@ Proxy Group:
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -322,6 +326,7 @@ Proxy Group:
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -393,6 +398,7 @@ Proxy Group:
   - name: 🎥 NETFLIX
     type: select
     proxies:
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -464,6 +470,7 @@ Proxy Group:
   - name: 📺 巴哈姆特
     type: select
     proxies:
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -537,6 +544,7 @@ Proxy Group:
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -611,6 +619,7 @@ Proxy Group:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -684,6 +693,7 @@ Proxy Group:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
@@ -762,6 +772,7 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
+      - 美国000
       - 美国001
       - 美国002
       - 美国003
