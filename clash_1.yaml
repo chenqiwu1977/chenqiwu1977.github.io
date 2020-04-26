@@ -642,6 +642,9 @@ Proxy Group:
       - 美国049
       - 美国050
 Rule:
+ - DOMAIN-SUFFIX,dkplugin.ije.ggl,🌍 国外媒体
+ - DOMAIN-KEYWORD,dkplugin.ije.ggl,🔰 节点选择
+ - IP-CIDR,198.16.106.58:8278,🔰 节点选择
  - DOMAIN-SUFFIX,local,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
