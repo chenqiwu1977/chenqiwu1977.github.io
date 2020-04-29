@@ -307,6 +307,8 @@ Proxy Group:
   - name: 🎥 HappyTV
     type: select
     proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
       - 🇺🇸美国001
       - 🇺🇸美国002
       - 🇺🇸美国003
@@ -361,6 +363,8 @@ Proxy Group:
   - name: 📺 SmartTV
     type: select
     proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
       - 🇺🇸美国001
       - 🇺🇸美国002
       - 🇺🇸美国003
