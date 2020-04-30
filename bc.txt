@@ -524,4 +524,13 @@ iQIYI,http://bohi321.hk77.ok188.top/smart.php?playurl=http://185.180.221.194:827
 博斯运动II,http://198.16.106.58:8278/bosisport2_twn/playlist.m3u8?tid=me2481e7d44d016681479&ct=18257&tsum=1325c72cd6df2091e8f430449f4a5ac9
 博斯网球台,http://198.16.106.58:8278/bositennis_twn/playlist.m3u8?tid=mcaacb594ffb211551775&ct=18257&tsum=710f518ab2b946e4e4834e46a9ca5457
 曼迪日本台,http://198.16.106.58:8278/mandijapan_twn/playlist.m3u8?tid=m8cf91a57df5617689984&ct=18257&tsum=fca7fa28514f0ad32762a4a32bf87b13
-8TV,https://stream-01.sg1.dailymotion.com/sec(g0FwEewAeL3w7b14lFp08nV9Qf56UO0ZmB4r9DPpXTI)/dm/3/x7a7ru1/s/live-4.m3u8
+海外频道,#genre#
+TVBS HD,p2p://fccsovh.pvbox.live:18912/5b140960000c982b09d5b70e1204181c
+東森新聞,p2p://fccsovh.pvbox.live:18912/5c2dd7310008b3195eae88b9f6dbbb1e
+壹電視新聞,p2p://fccsovh.pvbox.live:18912/5b14094000088a463e1738aba785f565
+環宇新聞,p2p://fccsovh.pvbox.live:18912/5b1408f30005adeca163f5e87e0c73cd
+HKC新闻,p2p://fccseuro.pvbox.live:18912/5b13f6f100047cdef5f73c9021bbafe5
+HKC电影一台,p2p://fccseuro.pvbox.live:18912/5b140a1600025764b664ccfb85cd7a2f
+私人影院,p2p://fccseuro.pvbox.live:18912/5b140a98000c5ae61774bcda4342023a
+
+
