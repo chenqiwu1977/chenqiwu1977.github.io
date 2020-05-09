@@ -1,0 +1,156 @@
+Centos 8
+1.进入root
+sudo su
+2.更新系统
+yum install epel-release -y
+yum update -y
+3.开启Google BBR加速(可选)
+(1)检查Linux内核版本
+uname -r
+(2)添加并启用Google BBR模块到内核
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+(3)检查是否成功加入Google BBR模块到内核中
+sysctl net.ipv4.tcp_available_congestion_control
+(4)验证是否启用了Google BBR
+lsmod | grep bbr
+
+4.安装并配置v2ray
+(1)官方脚本安装v2ray
+bash <(curl -L -s https://install.direct/go.sh)
+(2)获取uuid: https://www.uuidgenerator.net/
+   获取随机字符串: https://www.random.org/strings/
+(3)修改v2ray配置文件
+v2ray配置文件保存在/etc/v2ray/config.json,替换下方的端口号port, 密码id, 及路径path字段值。如果实在太懒直接用我的也行(不推荐)。
+
+cat <<EOT > /etc/v2ray/config.json
+{
+  "inbounds": [
+    {
+      "port": 7566,
+      "listen":"127.0.0.1",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "6ac6f036-bea5-696c-bedf-c88366f36abc",
+            "alterId": 66
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/chen/"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+EOT
+
+
+(4)检查配置文件并重启v2ray服务
+/usr/bin/v2ray/v2ray -test -config=/etc/v2ray/config.json
+systemctl restart v2ray
+
+
+5.安装nginx服务器
+(1)安装nginx服务器
+yum install nginx -y
+
+         这两步跳过                 (2)查看nginx状态
+                 systemctl status nginx
+
+         不要启动          (3)启动nginx服务器
+             systemctl start nginx
+
+
+6.安装SSL免费证书
+(1)安装cerbot
+yum install certbot -y
+(2)生成证书,把域名和邮箱替换成自己的
+certbot certonly --standalone --agree-tos -n -d www.cdniptv321.ml -d cdniptv321.ml -m chenxuanxi1998@gmail.com
+(3)自动更新ssl证书
+echo "0 0 1 */2 * service nginx stop; certbot renew; service nginx start;" | crontab
+
+
+6.创建nginx配置文件
+更改ssl_certificate ssl_certificate_key`` server_name proxy_pass location
+(1)创建nginx配置文件:/etc/nginx/conf.d/default.conf
+
+cat <<EOT > /etc/nginx/conf.d/default.conf
+server {
+  listen 443 ssl;
+  listen [::]:443 ssl;
+  # config ssl
+  ssl_certificate       /etc/letsencrypt/live/www.cdniptv321.ml/fullchain.pem;
+  ssl_certificate_key   /etc/letsencrypt/live/www.cdniptv321.ml/privkey.pem;
+  ssl_session_timeout 1d;
+  ssl_session_cache shared:MozSSL:10m;
+  ssl_session_tickets off;
+
+  ssl_protocols         TLSv1.2 TLSv1.3;
+  ssl_ciphers           ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
+  ssl_prefer_server_ciphers off;
+
+  server_name           duyuanchao.me; # config server_name
+    location /chen/ { # config path
+      if (\$http_upgrade != "websocket") {
+          return 404;
+      }
+      proxy_redirect off;
+      proxy_pass http://127.0.0.1:7566; # config proxy_pass
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade \$http_upgrade;
+      proxy_set_header Connection "upgrade";
+      proxy_set_header Host \$host;
+      # Show real IP in v2ray access.log
+      proxy_set_header X-Real-IP \$remote_addr;
+      proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+    }
+}
+EOT
+
+
+(2)检查配置文件是否正确
+nginx -t
+(3)重启nginx服务器
+systemctl restart nginx
+(4)禁用SELinux
+setsebool -P httpd_can_network_connect 1 && setenforce 0
+
+
+7.下载网页模版并部署到nginx目录
+下载一个网页项目部署到nginx服务器上，减少被墙的可能
+推荐网站模版
+
+https://www.free-css.com/free-css-templates
+https://colorlib.com/wp/templates/
+
+cd /usr/share/nginx/html/
+yum install wget unzip -y
+ls
+wget xxxx.zip
+unzip website.zip
+ls
+mv website/* .
+
+8.开启https端口号(443)
+(1)安装ufw
+yum install ufw -y
+(2)查看防火墙状态
+ufw status
+(3)开启防火墙
+ufw enable
+(4)开启https端口(443)
+ufw allow 443/tcp
+
+
