@@ -93,13 +93,13 @@ http://198.16.106.58:8278/ctizhonghe/playlist.m3u8?tid=MC9C5862444758624447&ct=1
 http://198.16.106.58:8278/ctinews/playlist.m3u8?tid=MEFE4113231041132310&ct=18392&tsum=6a3e7c0f4dc22c460e84b9010cefeba0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="台   湾",中天亚洲
 http://198.16.106.58:8278/ctiasia_twn/playlist.m3u8?tid=MD9D8074141680741416&ct=18392&tsum=3a5c597c66faf8b80347d321696ea7d9
-#EXTINF:-1 tvg-id="6045" tvg-name="八大第一台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GTVOneHD.png" group-title="台   湾",八大第一
+#EXTINF:-1 tvg-id="6045" tvg-name="八大第一台" tvg-logo="http://chinaiptv.ueuo.com/bddy.png" group-title="台   湾",八大第一
 http://198.16.106.58:8278/badafirst/playlist.m3u8?tid=MA8A1840221418402214&ct=18392&tsum=f987ccb055254f75b94a87e6edc5c4e1
-#EXTINF:-1 tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GTVDramaHD.png" group-title="台   湾",八大戏剧
+#EXTINF:-1 tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="http://chinaiptv.ueuo.com/bdxj.png" group-title="台   湾",八大戏剧
 http://198.16.106.58:8278/badadrama/playlist.m3u8?tid=MADA9056847690568476&ct=18392&tsum=c7fa17a1b47ee849836c6ebb23a84b67
-#EXTINF:-1 tvg-id="6046" tvg-name="八大综合台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GTVVarietyHD.png" group-title="台   湾",八大综合
+#EXTINF:-1 tvg-id="6046" tvg-name="八大综合台" tvg-logo="http://chinaiptv.ueuo.com/bdzh.png" group-title="台   湾",八大综合
 http://198.16.106.58:8278/badazhonghe/playlist.m3u8?tid=MD9D4511702845117028&ct=18392&tsum=acb3fb8e6755143e0d5049e6b3013b74
-#EXTINF:-1 tvg-id="6133" tvg-name="八大娱乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GTVEntertainment.png" group-title="台   湾",八大娱乐
+#EXTINF:-1 tvg-id="6133" tvg-name="八大娱乐台" tvg-logo="http://chinaiptv.ueuo.com/bdyl.png" group-title="台   湾",八大娱乐
 http://198.16.106.58:8278/badaentertain/playlist.m3u8?tid=MC7C6131536661315366&ct=18392&tsum=ca3afe510fdab8d2c2c7ed8088843dc9
 #EXTINF:-1 tvg-id="6048" tvg-name="三立都会台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETCity.png" group-title="台   湾",三立都会HD
 http://198.16.106.58:8278/sanlidouhui/playlist.m3u8?tid=MB1B1781992417819924&ct=18392&tsum=00e0f207f78b848c96b61edd3a516cad
@@ -219,9 +219,9 @@ http://198.16.106.58:8278/Channel5/playlist.m3u8?tid=MA7A4522692345226923&ct=183
 http://198.16.106.58:8278/Channel8/playlist.m3u8?tid=MBAB2952044029520440&ct=18393&tsum=727f923b2b022ab6f67cdab5b84c2705
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="新加坡",OHK
 http://198.16.106.58:8278/ohk_twn/playlist.m3u8?tid=MC5C6829488968294889&ct=18393&tsum=c4d6884d5a7ec0af18a554c2d69c9ff7
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="台   湾",天映频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://chinaiptv.ueuo.com/typd.png" group-title="台   湾",天映频道
 http://198.16.106.58:8278/Celestial1511/playlist.m3u8?tid=MA3A1587109915871099&ct=18392&tsum=3039500a3cdcdb25e75684401aa93fab
-#EXTINF:-1 tvg-id="828" tvg-name="天映经典" tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv112_mobile.png" group-title="台   湾",天映经典
+#EXTINF:-1 tvg-id="828" tvg-name="天映经典" tvg-logo="http://chinaiptv.ueuo.com/tyjd.png" group-title="台   湾",天映经典
 http://198.16.106.58:8278/Celestial2/playlist.m3u8?tid=MDCD3547234435472344&ct=18392&tsum=df191ce8dd50aed7d02bc018c8953b5d
 #EXTINF:-1 tvg-id="7165" tvg-name="AMC" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AMC.png" group-title="台   湾",AMC
 http://198.16.106.58:8278/sundance_twn/playlist.m3u8?tid=ME8E6516348865163488&ct=18392&tsum=4b378b3dce57d990375dc63fa830c9a4
