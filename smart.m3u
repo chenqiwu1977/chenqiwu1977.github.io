@@ -549,7 +549,7 @@ http://v.iam7.cn/iptv/cibn.php?code=338
 http://v.iam7.cn/iptv/cibn.php?code=155
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CIBN",CIBN艺术院线
 http://v.iam7.top/iptv/cibn/?id=1108&code=YingXiong
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",CIBN院线大片
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CIBN",CIBN院线大片
 http://v.iam7.top/iptv/cibn/?id=1108&code=DanJi
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="CIBN",CIBN怡家
 http://v.iam7.top/iptv/cibn/?id=1108&code=JiaoYu
