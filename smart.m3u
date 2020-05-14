@@ -123,7 +123,7 @@ http://198.16.106.58:8278/ettvdrama/playlist.m3u8?tid=MCFC6975431069754310&ct=18
 #EXTINF:-1 tvg-id="6080" tvg-name="东森电影台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCMovies.png" group-title="海      外",东森电影
 http://198.16.106.58:8278/ettvmovie/playlist.m3u8?tid=MEFE2034566420345664&ct=18392&tsum=1502fc143fc8f9e372aabb9787af9176
 #EXTINF:-1 tvg-id="6049" tvg-name="卫视中文台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/卫视中文.png" group-title="海      外",卫视中文台
-http://198.16.106.58:8278/starchinese/playlist.m3u8?tid=me401a3ac403314590835&ct=18257&tsum=3ee06222a833e5495c1601ff8fc72585
+http://111.13.111.192/211.75.9.37:20000/20006
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",卫视合家台
 http://198.16.106.58:8278/starfamily/playlist.m3u8?tid=m590d1c1a828917758882&ct=18257&tsum=1bfef524491fc5a972477c5c8874eb59
 #EXTINF:-1 tvg-id="7219" tvg-name="爱尔达综合" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="海      外",爱尔达综合
