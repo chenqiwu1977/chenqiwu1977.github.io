@@ -124,7 +124,7 @@ http://198.16.106.58:8278/ettvdrama/playlist.m3u8?tid=MCFC6975431069754310&ct=18
 http://198.16.106.58:8278/ettvmovie/playlist.m3u8?tid=MEFE2034566420345664&ct=18392&tsum=1502fc143fc8f9e372aabb9787af9176
 #EXTINF:-1 tvg-id="6049" tvg-name="卫视中文台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/卫视中文.png" group-title="海      外",卫视中文台
 http://198.16.106.58:8278/starchinese/playlist.m3u8?tid=me401a3ac403314590835&ct=18257&tsum=3ee06222a833e5495c1601ff8fc72585
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",卫视合家台
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",卫视合家台
 http://198.16.106.58:8278/starfamily/playlist.m3u8?tid=m590d1c1a828917758882&ct=18257&tsum=1bfef524491fc5a972477c5c8874eb59
 #EXTINF:-1 tvg-id="7219" tvg-name="爱尔达综合" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_zonghehd.png" group-title="海      外",爱尔达综合
 http://198.16.106.58:8278/eltazhonghe_twn/playlist.m3u8?tid=MF0F5696049856960498&ct=18392&tsum=1ea146756e83d5f4d635a0a8b67a8db1
@@ -154,7 +154,7 @@ http://198.16.106.58:8278/videolandzhe_twn/playlist.m3u8?tid=MCDC158021751580217
 http://198.16.106.58:8278/videolandxiju_twn/playlist.m3u8?tid=MC0C3544336135443361&ct=18392&tsum=ca3ab2fca32784b0919f587ae88f2bb0
 #EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="海      外",纬来体育
 http://198.16.106.58:8278/videolandsport_twn/playlist.m3u8?tid=MADA9461299894612998&ct=18392&tsum=5e75a8bbafc370e54d3a565947330e10
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",纬来精彩
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",纬来精彩
 http://198.16.106.58:8278/videolandspecial_twn/playlist.m3u8?tid=MA9A8994459989944599&ct=18392&tsum=bea80d3db4c245560e26cb8c33dc03bc
 #EXTINF:-1 tvg-id="6081" tvg-name="纬来电影台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMovies.png" group-title="海      外",纬来电影
 http://198.16.106.58:8278/videolandmovie/playlist.m3u8?tid=MCDC7290934072909340&ct=18392&tsum=eba8b1fbe0f8d2817f298853055269a8
@@ -164,7 +164,7 @@ http://198.16.106.58:8278/jingtianyinghua_twn/playlist.m3u8?tid=MD1D744538807445
 http://198.16.106.58:8278/def247e177/playlist.m3u8?tid=MD9D1712457717124577&ct=18392&tsum=8e4b08567fca95582e69c9e8fb9f9351
 #EXTINF:-1 tvg-id="7227" tvg-name="华艺影剧" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/huayi_yingju.png" group-title="海      外",华艺影剧
 http://198.16.106.58:8278/hongjimovie_twn/playlist.m3u8?tid=MAEA2752241327522413&ct=18392&tsum=d83987ce8673f9d98bb554e55c62d517
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",采昌影视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",采昌影视
 http://198.16.106.58:8278/528222e84e/playlist.m3u8?tid=ME9E3059896830598968&ct=18393&tsum=d043c6fcf41a248b4ae8f503899e3af1
 #EXTINF:-1 tvg-id="6096" tvg-name="国兴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GoldSunTV.png" group-title="海      外",国兴卫视
 http://198.16.106.58:8278/guoxingweishi_twn/playlist.m3u8?tid=MADA5042600450426004&ct=18392&tsum=168d3d0251655c27fded80b13b233e73
@@ -226,7 +226,7 @@ http://198.16.106.58:8278/cinemax_twn/playlist.m3u8?tid=MEAE1417577214175772&ct=
 http://198.16.106.58:8278/cinemaworld_twn/playlist.m3u8?tid=MDBD8739754187397541&ct=18392&tsum=beca461ae91017c1bb0a4d6fed0d4507
 #EXTINF:-1 tvg-id="7206" tvg-name="CatchPlay电影" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/catchplay.png" group-title="海      外",CatchPlay电影
 http://198.16.106.58:8278/catchplay_twn/playlist.m3u8?tid=ME7E4675812646758126&ct=18392&tsum=271a75bd9cc5c9a7ef81aca6ad1df354
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",sundance
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",sundance
 http://198.16.106.58:8278/sundance_twn/playlist.m3u8?tid=ME2E3028737630287376&ct=18392&tsum=c9d8507658c83110f8fdca428bae220b
 #EXTINF:-1 tvg-id="7203" tvg-name="星卫娱乐" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/starmovieyule.png" group-title="海      外",星卫娱乐台
 http://198.16.106.58:8278/starentertainment_twn/playlist.m3u8?tid=MAFA9220274892202748&ct=18392&tsum=7d1c5b29b56cfe07f346d47ee4bf512c
@@ -240,7 +240,7 @@ http://198.16.106.58:8278/meiyamovie_twn/playlist.m3u8?tid=MD3D6323299363232993&
 http://198.16.106.58:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 #EXTINF:-1 tvg-id="6079" tvg-name="卫视电影台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/StarChineseMovies.png" group-title="海      外",卫视电影
 http://198.16.106.58:8278/weishimovie_twn/playlist.m3u8?tid=MF0F3330764533307645&ct=18392&tsum=faa4a720f233e70dfd73cc4a061a837c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",卫视西片
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",卫视西片
 http://198.16.106.58:8278/weishiwestern_twn/playlist.m3u8?tid=MFDF8567633585676335&ct=18392&tsum=5f38b79f3c0c38050372e6bde9440a2a
 #EXTINF:-1 tvg-id="6149" tvg-name="WarnerTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/WarnerTV.png" group-title="海      外",WarnerTV
 http://198.16.106.58:8278/warnatv_twn/playlist.m3u8?tid=ME3E5008972350089723&ct=18392&tsum=796fff61fcbddb1b6030488404f2c6ef
