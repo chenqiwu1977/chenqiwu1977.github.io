@@ -242,6 +242,8 @@ http://198.16.106.58:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A400563884005
 http://198.16.106.58:8278/weishimovie_twn/playlist.m3u8?tid=MF0F3330764533307645&ct=18392&tsum=faa4a720f233e70dfd73cc4a061a837c
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",卫视西片
 http://198.16.106.58:8278/weishiwestern_twn/playlist.m3u8?tid=MFDF8567633585676335&ct=18392&tsum=5f38b79f3c0c38050372e6bde9440a2a
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",FOX电影
+http://111.13.111.192/211.75.9.37:20040/20046
 #EXTINF:-1 tvg-id="6149" tvg-name="WarnerTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/WarnerTV.png" group-title="海      外",WarnerTV
 http://198.16.106.58:8278/warnatv_twn/playlist.m3u8?tid=ME3E5008972350089723&ct=18392&tsum=796fff61fcbddb1b6030488404f2c6ef
 #EXTINF:-1 tvg-id="711" tvg-name="FXHD" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FXHD.png" group-title="海      外",FXHD
