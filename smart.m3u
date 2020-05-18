@@ -10,9 +10,9 @@ http://198.16.106.58:8278/j2_twn/playlist.m3u8?tid=MD0D5243334052433340&ct=18392
 http://198.16.106.58:8278/jade_twn/playlist.m3u8?tid=MC7C4453017744530177&ct=18392&tsum=d566952eed3cac216a274c40957722ae
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="港      台",明珠台
 http://198.16.106.58:8278/pearl_twn/playlist.m3u8?tid=ME9E4685430546854305&ct=18392&tsum=fad6a63c8942d079c89cce9c6a12a5f3
-#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="港      台",无线新闻
+#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="https://chenqiwu1977.github.io/wxxw.png" group-title="港      台",无线新闻
 http://198.16.106.58:8278/inews_twn/playlist.m3u8?tid=ME4E2812026928120269&ct=18392&tsum=b6468e1246a2b3349bdd8785461d25ca
-#EXTINF:-1 tvg-id="" tvg-name="无线财经资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxcj.png" group-title="港      台",无线财经资讯
+#EXTINF:-1 tvg-id="" tvg-name="无线财经资讯" tvg-logo="https://chenqiwu1977.github.io/wxcj.png" group-title="港      台",无线财经资讯
 http://198.16.106.58:8278/j5_twn/playlist.m3u8?tid=MD7D6077097160770971&ct=18392&tsum=c52d6bfaa8625673b95c651d46db93ad
 #EXTINF:-1 tvg-id="7122" tvg-name="有线新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/youxianxinwen.png" group-title="港      台",有线新闻
 http://198.16.106.58:8278/hkcnews_twn/playlist.m3u8?tid=MADA4920232649202326&ct=18392&tsum=3ebd3cd985c2b44d4f71a3ba57f39357
@@ -22,7 +22,7 @@ http://198.16.106.58:8278/hk03_twn/playlist.m3u8?tid=MBDB8560302185603021&ct=183
 http://198.16.106.58:8278/tvbxinghe_twn/playlist.m3u8?tid=MCDC1795636917956369&ct=18392&tsum=55f1be143c066f591b93d9ad92e8c884
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/amlh.png" group-title="港      台",莲花卫视
 http://198.16.106.58:8278/macaulotus/playlist.m3u8?tid=MB4B5673711756737117&ct=18392&tsum=404a1b4d40b3e6b40f67f45b5b4843b4
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",星空卫视
+#EXTINF:-1 tvg-id="" tvg-name="星空卫视" tvg-logo="https://chenqiwu1977.github.io/xkws.png" group-title="港      台",星空卫视
 http://198.16.106.58:8278/xingkong/playlist.m3u8?tid=MFDF3656139336561393&ct=18392&tsum=a2dae0f3333c8085854abfdceeb50823
 #EXTINF:-1 tvg-id="408" tvg-name="ViuTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="港      台",viu tv
 http://198.16.106.58:8278/viu1_twn/playlist.m3u8?tid=MBFB5019865950198659&ct=18392&tsum=c13521b82e86694ccf2f94bc1e3076cc
@@ -30,9 +30,9 @@ http://198.16.106.58:8278/viu1_twn/playlist.m3u8?tid=MBFB5019865950198659&ct=183
 http://198.16.106.58:8278/viu_twn/playlist.m3u8?tid=MCBC8232918982329189&ct=18392&tsum=f2d8eb68bc373aec691dbbe52c493f52
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",viu6 tv
 http://198.16.106.58:8278/viu6_twn/playlist.m3u8?tid=MD2D3178034831780348&ct=18392&tsum=e648e4c371d48bd837de8c99bc396fb1
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",rhk 31
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/rth31.png" group-title="港      台",rhk 31
 http://198.16.106.58:8278/rhk31_twn/playlist.m3u8?tid=MEAE4537581145375811&ct=18392&tsum=d5b6631971b3789e0232f240032aab1c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",rhk 32
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/rth32.png" group-title="港      台",rhk 32
 http://198.16.106.58:8278/rhk32_twn/playlist.m3u8?tid=ME0E6717791467177914&ct=18392&tsum=7e9b3ca62c6e8003eea6901833169238
 #EXTINF:-1 tvg-id="6030" tvg-name="华视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="海      外",华视
 http://198.16.106.58:8278/666e820fa0/playlist.m3u8?tid=MAEA1594599315945993&ct=18393&tsum=d4b03b0edfba73dcddb8566da270eb67
