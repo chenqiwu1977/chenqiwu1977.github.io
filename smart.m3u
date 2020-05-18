@@ -20,7 +20,7 @@ http://198.16.106.58:8278/hkcnews_twn/playlist.m3u8?tid=MADA4920232649202326&ct=
 http://198.16.106.58:8278/hk03_twn/playlist.m3u8?tid=MBDB8560302185603021&ct=18392&tsum=c2a94ad5b4544d113fd2a51e76186799
 #EXTINF:-1 tvg-id="131" tvg-name="TVB星河频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB星河.png" group-title="港      台",TVB星河频道
 http://198.16.106.58:8278/tvbxinghe_twn/playlist.m3u8?tid=MCDC1795636917956369&ct=18392&tsum=55f1be143c066f591b93d9ad92e8c884
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",莲花卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/amlh.png" group-title="港      台",莲花卫视
 http://198.16.106.58:8278/macaulotus/playlist.m3u8?tid=MB4B5673711756737117&ct=18392&tsum=404a1b4d40b3e6b40f67f45b5b4843b4
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",星空卫视
 http://198.16.106.58:8278/xingkong/playlist.m3u8?tid=MFDF3656139336561393&ct=18392&tsum=a2dae0f3333c8085854abfdceeb50823
@@ -178,11 +178,11 @@ http://198.16.106.58:8278/865685b03d/playlist.m3u8?tid=ME4E7681115776811157&ct=1
 https://livedoomovies.com/02_SCM_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",iQIYi
 http://185.180.221.194:8278/Qiyi/playlist.m3u8?tid=MB6B9982727599827275&ct=18393&tsum=dac11949045b23a5dddf7f908d866fcc
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",astro AOD
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/astro AOD.png" group-title="海      外",astro AOD
 http://198.16.106.58:8278/852e2b6267/playlist.m3u8?tid=ME9E3829778138297781&ct=18393&tsum=267919d91a464025ca3ec69186e0b97f
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",astro AEC
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/astro AEC.png" group-title="海      外",astro AEC
 http://185.180.221.194:8278/Aec/playlist.m3u8?tid=MD9D7286847372868473&ct=18393&tsum=528b4df2b09ac49dde7efa01f1521fc0
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",astro全佳台
+#EXTINF:-1 tvg-id="" tvg-name="https://chenqiwu1977.github.io/astro quanjia.png" tvg-logo="" group-title="海      外",astro全佳台
 http://185.180.221.194:8278/709a7e15e5/playlist.m3u8?tid=MB2B5535727355357273&ct=18393&tsum=befb9caa2c30f07d1ae184dcc3f09a01
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海      外",astro华丽台
 http://185.180.221.194:8278/b8b3235366/playlist.m3u8?tid=MF4F9906062099060620&ct=18393&tsum=aed2fd07d5f66c7469d1e1400f67fa4b
