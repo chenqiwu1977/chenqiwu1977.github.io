@@ -80,6 +80,8 @@ http://198.16.106.58:8278/onetvnews/playlist.m3u8?tid=MEDE6579865765798657&ct=18
 http://198.16.106.58:8278/tvbs/playlist.m3u8?tid=MEFE7824840078248400&ct=18392&tsum=d87f71825e2a134527e0395f265932b0
 #EXTINF:-1 tvg-id="6074" tvg-name="TVBS" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS.png" group-title="海      外",TVBS
 http://111.13.111.192/211.75.9.37:20010/20016
+#EXTINF:-1 tvg-id="6074" tvg-name="TVBS" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS.png" group-title="海      外",TVBS
+P2p://fccsovh.pvbox.live:18912/5b140960000c982b5b710a4a47285a05.ts
 #EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="海      外",TVBS欢乐台
 http://198.16.106.58:8278/tvbs_g/playlist.m3u8?tid=ME0E2989760329897603&ct=18392&tsum=ca63dc4c0046705a09872bc84a4667f5
 #EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="海      外",TVBS欢乐台
