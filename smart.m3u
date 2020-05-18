@@ -28,7 +28,7 @@ http://198.16.106.58:8278/xingkong/playlist.m3u8?tid=MFDF3656139336561393&ct=183
 http://198.16.106.58:8278/viu1_twn/playlist.m3u8?tid=MBFB5019865950198659&ct=18392&tsum=c13521b82e86694ccf2f94bc1e3076cc
 #EXTINF:-1 tvg-id="408" tvg-name="ViuTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="港      台",viu tv
 http://198.16.106.58:8278/viu_twn/playlist.m3u8?tid=MCBC8232918982329189&ct=18392&tsum=f2d8eb68bc373aec691dbbe52c493f52
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",viu6 tv
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/viu6tv.png" group-title="港      台",viu6 tv
 http://198.16.106.58:8278/viu6_twn/playlist.m3u8?tid=MD2D3178034831780348&ct=18392&tsum=e648e4c371d48bd837de8c99bc396fb1
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://chenqiwu1977.github.io/rth31.png" group-title="港      台",rhk 31
 http://198.16.106.58:8278/rhk31_twn/playlist.m3u8?tid=MEAE4537581145375811&ct=18392&tsum=d5b6631971b3789e0232f240032aab1c
