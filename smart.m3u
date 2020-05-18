@@ -12,7 +12,7 @@ http://198.16.106.58:8278/jade_twn/playlist.m3u8?tid=MC7C4453017744530177&ct=183
 http://198.16.106.58:8278/pearl_twn/playlist.m3u8?tid=ME9E4685430546854305&ct=18392&tsum=fad6a63c8942d079c89cce9c6a12a5f3
 #EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="港      台",无线新闻
 http://198.16.106.58:8278/inews_twn/playlist.m3u8?tid=ME4E2812026928120269&ct=18392&tsum=b6468e1246a2b3349bdd8785461d25ca
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港      台",无线资讯
+#EXTINF:-1 tvg-id="" tvg-name="无线财经资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxcj.png" group-title="港      台",无线财经资讯
 http://198.16.106.58:8278/j5_twn/playlist.m3u8?tid=MD7D6077097160770971&ct=18392&tsum=c52d6bfaa8625673b95c651d46db93ad
 #EXTINF:-1 tvg-id="7122" tvg-name="有线新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/youxianxinwen.png" group-title="港      台",有线新闻
 http://198.16.106.58:8278/hkcnews_twn/playlist.m3u8?tid=MADA4920232649202326&ct=18392&tsum=3ebd3cd985c2b44d4f71a3ba57f39357
