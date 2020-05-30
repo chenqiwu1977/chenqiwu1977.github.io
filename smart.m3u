@@ -162,6 +162,12 @@ http://120.221.5.102:8089/PLTV/88888888/224/3221225841/index.m3u8
 http://120.221.44.101:8089/PLTV/88888888/224/3221225802/index.m3u8
 #EXTINF:-1 tvg-id="1428" tvg-name="山东体育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/sd_tiyu.png" group-title="央视卫视",山东体育
 http://120.221.44.101:8089/PLTV/88888888/224/3221226075/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",CHC动作电影
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",CHC家庭影院
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",CHC高清电影
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",海看剧场
 http://120.221.5.166:8089/ucdn.sd.chinamobile.com/2/00/SNM/CHANNEL00000403/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",海看热播
