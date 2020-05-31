@@ -69,9 +69,9 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
 #EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="央视卫视",重庆卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225692/index.m3u8
 #EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="央视卫视",四川卫视
-http://112.50.243.8/PLTV/88888888/224/3221226754/1.m3u8
+http://112.50.243.8/PLTV/88888888/224/3221227006/1.m3u8
 #EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="央视卫视",辽宁卫视
-http://112.50.243.8/PLTV/88888888/224/3221226881/1.m3u8
+http://39.134.115.163:8080/PLTV/88888910/224/3221225696/index.m3u8
 #EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="央视卫视",黑龙江卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225690/index.m3u8
 #EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="央视卫视",河北卫视
@@ -79,7 +79,7 @@ http://39.135.17.182:6610/PLTV/88888888/224/3221225713/2/index.m3u8
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="央视卫视",河南卫视
 http://39.135.17.182:6610/PLTV/88888888/224/3221225709/2/index.m3u8
 #EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="央视卫视",东南卫视
-http://39.135.38.165:6610/000000001000/1000000002000009263/1.m3u8?
+http://39.135.38.13/PLTV/88888888/224/3221226093/index.m3u8
 #EXTINF:-1 tvg-id="68" tvg-name="厦门卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xiamen.png" group-title="央视卫视",厦门卫视
 http://112.50.243.8/PLTV/88888888/224/3221226781/1.m3u8
 #EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="央视卫视",江西卫视
@@ -95,11 +95,11 @@ http://39.130.218.239:6610/gitv_live/G_YUNNAN-HD/G_YUNNAN-HD.m3u8
 #EXTINF:-1 tvg-id="59" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="央视卫视",青海卫视
 http://live.gemgdtv.com/channel3/sd/live.m3u8
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="央视卫视",冬奥纪实
-http://39.134.67.144/PLTV/88888888/224/3221225693/index.m3u8
+http://39.134.115.163:8080/PLTV/88888910/224/3221225676/index.m3u8
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="央视卫视",上海纪实
-http://39.134.67.144/PLTV/88888888/224/3221225694/index.m3u8
+http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8
 #EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="央视卫视",金鹰纪实
-http://39.135.15.210:6610/PLTV/88888888/224/3221225671/2/index.m3u8
+http://112.50.243.8/PLTV/88888888/224/3221226937/1.m3u8
 #EXTINF:-1 tvg-id="1976" tvg-name="全纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/quanjishi.png" group-title="央视卫视",全纪实
 http://111.20.106.28:6610/bestv/2/ch00000090990000001122/index.m3u8?&virtualDomain=bestv.live_hls.zte.com
 #EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" group-title="央视卫视",湖南茶频道
