@@ -5,16 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  
-  - {name: 🇸🇬新加坡, server: 47.241.106.81, port: 443, type: vmess, uuid: ee3f849e-ff8d-4b31-9b7c-5bb3e25cacd3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /xxx.jinweiheikeji.xyz, ws-headers: {Host: 47.241.106.81}}
-  - {name: 🇩🇪德国, server: 51.89.122.52, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 51.89.122.52}}
+  - {name: 🇸🇬新加坡, server: hdcu.crossx.top, port: 80, type: vmess, uuid: cbb62b86-d345-36dd-9b79-f523aa0bd5e3, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: siga1.crossz.info.haoershi.cn}}
+  - {name: 🇯🇵日本, server: hdcu.crossx.top, port: 80, type: vmess, uuid: cbb62b86-d345-36dd-9b79-f523aa0bd5e3, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.crossz.info.haoershi.cn}}
+  - {name: 🇭🇰香港, server: hdcu.crossx.top, port: 80, type: vmess, uuid: cbb62b86-d345-36dd-9b79-f523aa0bd5e3, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk2.crossz.info.jiayumm.cn}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
   - name: ♻️ 自动选择
     type: fallback
@@ -22,14 +23,16 @@ Proxy Group:
     interval: 200
     proxies:
       - 🇸🇬新加坡
-      - 🇩🇪德国
- - name: 🎥 HappyTV
+      - 🇯🇵日本
+      - 🇭🇰香港
+  - name: 🎥 HappyTV
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
   - name: 📺 SmartTV
     type: select
@@ -37,7 +40,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
   - name: 📻 电报吹水
     type: select
@@ -45,7 +49,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
   - name: 📹 YouTube
     type: select
@@ -53,7 +58,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -61,7 +67,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
@@ -70,7 +77,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -78,7 +86,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -90,7 +99,8 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇸🇬新加坡
-      - 🇩🇪德国
+      - 🇯🇵日本
+      - 🇭🇰香港
       - DIRECT
 Rule:
  - DOMAIN-SUFFIX,local,DIRECT
