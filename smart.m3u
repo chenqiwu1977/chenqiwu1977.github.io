@@ -57,7 +57,7 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="央视卫视",浙江卫视
 http://112.50.243.8/PLTV/88888888/224/3221225934/1.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="央视卫视",江苏卫视
-http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000004684&livemode=1&stbId=00000250001B50800001B401420BC069&userToken=&usergroup=
+http://liveplay-kk.rtxapp.com/live/program/live/jswshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="央视卫视",安徽卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225691/index.m3u8
 #EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="央视卫视",湖北卫视
@@ -79,7 +79,7 @@ http://101.71.255.229:6610/zjhs/2/10017/index.m3u8?virtualDomain=zjhs.live_hls.z
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="央视卫视",河南卫视
 http://101.71.255.229:6610/zjhs/2/10095/index.m3u8?virtualDomain=zjhs.live_hls.zte.com
 #EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="央视卫视",东南卫视
-http://39.135.38.13/PLTV/88888888/224/3221226093/index.m3u8
+http://liveplay-kk.rtxapp.com/live/program/live/dnwshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="68" tvg-name="厦门卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xiamen.png" group-title="央视卫视",厦门卫视
 http://112.50.243.8/PLTV/88888888/224/3221226781/1.m3u8
 #EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="央视卫视",江西卫视
@@ -104,6 +104,26 @@ http://112.50.243.8/PLTV/88888888/224/3221226937/1.m3u8
 http://live.hcs.cmvideo.cn:8088/wd_r2/ocn/quanjishihd/3000/index.m3u8?&encrypt=
 #EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" group-title="央视卫视",湖南茶频道
 http://39.135.250.76/huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226058/99180001000000060000000000000415.smil
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",都市剧场
+http://liveplay-kk.rtxapp.com/live/program/live/dsjchd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="央视卫视",欢笑剧场
+http://liveplay-kk.rtxapp.com/live/program/live/hxjchd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",动漫秀场
+http://liveplay-kk.rtxapp.com/live/program/live/dmxchd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1985" tvg-name="第一财经" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/diyicaijing.png" group-title="央视卫视",第一财经
+http://liveplay-kk.rtxapp.com/live/program/live/dycjhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1964" tvg-name="劲爆体育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinbaotiyu.jpg" group-title="央视卫视",劲爆体育
+http://liveplay-kk.rtxapp.com/live/program/live/jbtyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1987" tvg-name="五星体育频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/wuxingtiyu.png" group-title="央视卫视",五星体育
+http://liveplay-kk.rtxapp.com/live/program/live/ssty/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1963" tvg-name="新视觉" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xinshijue.png" group-title="央视卫视",新视觉
+http://liveplay-kk.rtxapp.com/live/program/live/xsjhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1984" tvg-name="上视新闻频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shangshixinwen.png" group-title="央视卫视",上海新闻综合
+http://liveplay-kk.rtxapp.com/live/program/live/xwzhhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="1986" tvg-name="东方影视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shanghaidongfangyingshi.png" group-title="央视卫视",上海电视剧频道
+http://liveplay-kk.rtxapp.com/live/program/live/dsjpdhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",上海娱乐频道
+http://liveplay-kk.rtxapp.com/live/program/live/ylpdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",云南娱乐HD
 http://39.130.206.132:6410/gitv_live/G_YNTV-3-HD/G_YNTV-3-HD.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",云南生活资讯HD
