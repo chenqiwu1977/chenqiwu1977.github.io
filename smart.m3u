@@ -101,7 +101,7 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8
 #EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="央视卫视",金鹰纪实
 http://112.50.243.8/PLTV/88888888/224/3221226937/1.m3u8
 #EXTINF:-1 tvg-id="1976" tvg-name="全纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/quanjishi.png" group-title="央视卫视",全纪实
-http://live.hcs.cmvideo.cn:8088/wd_r2/ocn/quanjishihd/3000/index.m3u8?&encrypt=
+http://39.135.31.196/hwcdntest.hb.chinamobile.com/PLTV/88888888/224/3221226180/3.m3u8
 #EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" group-title="央视卫视",湖南茶频道
 http://39.135.250.76/huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226058/99180001000000060000000000000415.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",都市剧场
