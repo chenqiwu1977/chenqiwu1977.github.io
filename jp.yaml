@@ -5,70 +5,126 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 🇸🇬新加坡, server: hdcu.crossx.top, port: 80, type: vmess, uuid: cbb62b86-d345-36dd-9b79-f523aa0bd5e3, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: siga1.crossz.info.haoershi.cn}}
-  - {name: 🇯🇵日本, server: hdcu.crossx.top, port: 80, type: vmess, uuid: cbb62b86-d345-36dd-9b79-f523aa0bd5e3, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.crossz.info.haoershi.cn}}
-  - {name: 🇭🇰香港, server: hdcu.crossx.top, port: 80, type: vmess, uuid: cbb62b86-d345-36dd-9b79-f523aa0bd5e3, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk2.crossz.info.jiayumm.cn}}
+  - {name: 🇭🇰 香港, server: chinahright.xyz, port: 443, type: vmess, uuid: cc44a324-ae19-11ea-85bb-560002d54a67, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /VpEIXUlw/, ws-headers: {Host: chinahright.xyz}}
+  - {name: 🇲🇴 澳门, server: 119.188.97.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us01.v2cdn.club.barryming.com}}
+  - {name: 🇹🇼 台湾, server: 157.255.26.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: de01.v2cdn.club.barryming.com}}
+  - {name: 🇨🇦 加拿大, server: 125.39.174.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: de01.v2cdn.club.barryming.com}}
+  - {name: 🇷🇺 俄罗斯, server: 42.236.94.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us01.v2cdn.club.barryming.com}}
+  - {name: 🇺🇦 乌克兰, server: 45.79.83.237, port: 443, type: vmess, uuid: 6e567846-0938-0c79-e2e6-6c25e5c4df8c, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: 8cef1e71, ws-headers: {Host: web-07.sdsff.xyz}}
+  - {name: 🇹🇭 泰国, server: chinahumanr.tk, port: 443, type: vmess, uuid: 81a43ce0-ae1d-11ea-99be-560002d54cb7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /sGnVyZ5g/, ws-headers: {Host: chinahumanr.tk}}
+  - {name: 🇰🇵 朝鲜, server: 113.207.102.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us01.v2cdn.club.barryming.com}}
+  - {name: 🇵🇹 葡萄牙, server: 119.147.134.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: de01.v2cdn.club.barryming.com}}
+  - {name: 🇧🇪 比利时, server: 112.25.91.23, port: 80, type: vmess, uuid: c6933caf-0825-40a0-a2cf-2f8a025352e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: de01.v2cdn.club.barryming.com}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
       - DIRECT
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 200
     proxies:
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
   - name: 🎥 HappyTV
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
       - DIRECT
   - name: 📺 SmartTV
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
       - DIRECT
   - name: 📻 电报吹水
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
-      - DIRECT
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
+     - DIRECT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
-      - DIRECT
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
+     - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
@@ -76,18 +132,32 @@ Proxy Group:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -98,9 +168,16 @@ Proxy Group:
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇸🇬新加坡
-      - 🇯🇵日本
-      - 🇭🇰香港
+      - 🇭🇰 香港
+      - 🇲🇴 澳门
+      - 🇹🇼 台湾
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯
+      - 🇺🇦 乌克兰
+      - 🇹🇭 泰国
+      - 🇰🇵 朝鲜
+      - 🇵🇹 葡萄牙
+      - 🇧🇪 比利时
       - DIRECT
 Rule:
  - DOMAIN-SUFFIX,local,DIRECT
