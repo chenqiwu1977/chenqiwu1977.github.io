@@ -843,5 +843,23 @@ ELEVEN体育一台,http://198.16.106.58:8278/golfchannel_twn/playlist.m3u8?tid=M
 ELEVEN体育二台,http://198.16.106.58:8278/luxetv_twn/playlist.m3u8?tid=ME0E2690669626906696&ct=18393&tsum=cd1fdc3982d027e4183ab11b204b64ca
 广东体育,http://198.16.106.58:8278/guangdongsport/playlist.m3u8?tid=MDCD6708999867089998&ct=18393&tsum=d9b894ccda87199ee52e4be3c332437c
 皇家足球,http://198.16.106.58:8278/truepre1_pat/playlist.m3u8?tid=MDBD7665930576659305&ct=18393&tsum=b9ed74ecaeb3928f5767600f257b32c8
+民视,http://hdtv.ub1818.com/ublive/index_4.m3u8
+非凡新闻,http://hdtv.ub1818.com/ublive/index_8.m3u8
+中视新闻,http://hdtv.ub1818.com/ublive/index_9.m3u8
+华视新闻,http://hdtv.ub1818.com/ublive/index_10.m3u8
+八大综合台,http://hdtv.ub1818.com/ublive/index_12.m3u8
+猪哥会社,http://hdtv.ub1818.com/ublive/index_14.m3u8
+华视,http://hdtv.ub1818.com/ublive/index_15.m3u8
+公视戏剧,http://hdtv.ub1818.com/ublive/index_16.m3u8
+综艺,http://hdtv.ub1818.com/ublive/index_11.m3u8
+靖天映画,http://hdtv.ub1818.com/ublive/index_26.m3u8
+采昌影剧台,http://hdtv.ub1818.com/ublive/index_27.m3u8
+影迷数位纪实台,http://hdtv.ub1818.com/ublive/index_28.m3u8
+amc最爱电影,http://hdtv.ub1818.com/ublive/index_30.m3u8
+韩国娱乐台,http://hdtv.ub1818.com/ublive/index_35.m3u8
+travel,http://hdtv.ub1818.com/ublive/index_36.m3u8
+TVBS,http://hdtv.ub1818.com/ublive/index_5.m3u8
+outdoor,http://hdtv.ub1818.com/ublive/index_37.m3u8
+台视财经,http://hdtv.ub1818.com/ublive/index_38.m3u8
 
 
