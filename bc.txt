@@ -676,4 +676,17 @@ TLC旅游生活频道,http://hdtv.ub1818.com/ublive/index_36.m3u8
 Outdoor户外休闲台,http://hdtv.ub1818.com/ublive/index_37.m3u8
 台视财经,http://hdtv.ub1818.com/ublive/index_38.m3u8
 运动明星大揭秘,http://hdtv.ub1818.com/ublive/index_39.m3u8
+TVBS新聞,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+民視新聞,http://seb.sason.top/sc/msxw_fhd.m3u8
+三立Live新聞,http://seb.sason.top/sc/sllive_fhd.m3u8
+三立iNews新聞,http://seb.sason.top/sc/slinews_fhd.m3u8
+中天新聞,http://seb.sason.top/sc/ztxw_fhd.m3u8
+東森新聞,http://seb.sason.top/sc/dsxw_fhd.m3u8
+東森財經新聞,http://seb.sason.top/sc/dscjxw_fhd.m3u8
+華視新聞,http://seb.sason.top/sc/hsxw_fhd.m3u8
+中視新聞,http://seb.sason.top/sc/zsxw_fhd.m3u8
+台視新聞,http://seb.sason.top/sc/tsxw_fhd.m3u8
+无线新聞台,http://tv.sason.xyz/proxy/tvb.php?id=xw
+无线財經台,http://tv.sason.xyz/proxy/tvb.php?id=cj
+
 
