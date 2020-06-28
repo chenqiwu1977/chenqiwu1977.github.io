@@ -688,6 +688,27 @@ TVBS新聞,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 台視新聞,http://seb.sason.top/sc/tsxw_fhd.m3u8
 无线新聞台,http://tv.sason.xyz/proxy/tvb.php?id=xw
 无线財經台,http://tv.sason.xyz/proxy/tvb.php?id=cj
+壹新聞,http://t.gerss.cn/dl/htv.php?id=49
+年代新聞台,http://t.gerss.cn/dl/htv.php?id=50
+東森新聞台,http://t.gerss.cn/dl/htv.php?id=51
+中天新聞台,http://t.gerss.cn/dl/htv.php?id=52
+民視新聞台,http://t.gerss.cn/dl/htv.php?id=53
+三立新聞台,http://t.gerss.cn/dl/htv.php?id=54
+TVBS新聞台,http://t.gerss.cn/dl/htv.php?id=55
+TVBS,http://t.gerss.cn/dl/htv.php?id=56
+寰宇新聞台,http://t.gerss.cn/dl/htv.php?id=163
+東森財經新聞台,http://t.gerss.cn/dl/htv.php?id=57
+非凡新聞台HD,http://t.gerss.cn/dl/htv.php?id=58
+VIVA1台,http://t.gerss.cn/dl/htv.php?id=59
+衛視電影台,http://t.gerss.cn/dl/htv.php?id=61
+東森電影台,http://t.gerss.cn/dl/htv.php?id=62
+緯來電影台,http://t.gerss.cn/dl/htv.php?id=63
+冠軍台,http://t.gerss.cn/dl/htv.php?id=64
+HBO,http://t.gerss.cn/dl/htv.php?id=65
+東森洋片台,http://t.gerss.cn/dl/htv.php?id=66
+中天娛樂台,http://t.gerss.cn/dl/htv.php?id=67
+好萊塢電影,http://t.gerss.cn/dl/htv.php?id=68
+衛視西片台,http://t.gerss.cn/dl/htv.php?id=69
 成    人,#genre#
 松视一台,https://717616144.r.worldssl.net/717616144/tv/ttv11/chunklist_w1523462549.m3u8
 松视二台,http://f3.twtvcdn.com:8080/live/403/513c6a1fcdd5255952012f562f1d476f/index.m3u8
