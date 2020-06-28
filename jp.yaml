@@ -197,6 +197,7 @@ Rule:
  - IP-CIDR,185.180.221.0/24, 📺 SmartTV
  - IP-CIDR,50.7.161.0/24, 📺 SmartTV
  - IP-CIDR,125.227.210.0/24, 📺 SmartTV
+ - IP-CIDR,58.99.33.0/24, 📺 SmartTV
  - DOMAIN-SUFFIX,local,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
