@@ -672,7 +672,7 @@ CNEX,http://hdtv.ub1818.com/ublive/index_29.m3u8
 AMC最爱电影,http://hdtv.ub1818.com/ublive/index_30.m3u8
 古典音乐台,http://hdtv.ub1818.com/ublive/index_34.m3u8
 韩国娱乐台,http://hdtv.ub1818.com/ublive/index_35.m3u8
-TLC旅游生活频道,http://hdtv.ub1818.com/ublive/index_36.m3u8
+travl,http://hdtv.ub1818.com/ublive/index_36.m3u8
 Outdoor户外休闲台,http://hdtv.ub1818.com/ublive/index_37.m3u8
 台视财经,http://hdtv.ub1818.com/ublive/index_38.m3u8
 运动明星大揭秘,http://hdtv.ub1818.com/ublive/index_39.m3u8
@@ -709,6 +709,12 @@ HBO,http://t.gerss.cn/dl/htv.php?id=65
 中天娛樂台,http://t.gerss.cn/dl/htv.php?id=67
 好萊塢電影,http://t.gerss.cn/dl/htv.php?id=68
 衛視西片台,http://t.gerss.cn/dl/htv.php?id=69
+三立財經台,http://t.gerss.cn/dl/htv.php?id=88
+HBO HD,http://t.gerss.cn/dl/htv.php?id=220
+HBO 原創鉅獻,http://t.gerss.cn/dl/htv.php?id=221
+HBO 溫馨家庭,http://t.gerss.cn/dl/htv.php?id=222
+HBO 強檔鉅獻,http://t.gerss.cn/dl/htv.php?id=223
+TLC 旅遊生活,http://t.gerss.cn/dl/htv.php?id=21
 成    人,#genre#
 松视一台,https://717616144.r.worldssl.net/717616144/tv/ttv11/chunklist_w1523462549.m3u8
 松视二台,http://f3.twtvcdn.com:8080/live/403/513c6a1fcdd5255952012f562f1d476f/index.m3u8
