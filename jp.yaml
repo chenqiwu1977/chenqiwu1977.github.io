@@ -5,8 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {"name":"🇭🇰 香港1","type":"vmess","server":"bgpbj.yhyn.xyz","port":28014,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
-
+  - {name: 🇭🇰 香港1, server: 47.241.111.225, port: 47365, type: vmess, uuid: e17b5175-23f5-4571-e81f-d4cc545d2c75, alterId: 0, cipher: auto, tls: false}
   - {"name":"🇭🇰 香港2","type":"vmess","server":"gd.peachs.xyz","port":22004,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
 
   - {"name":"🇭🇰 香港3","type":"vmess","server":"112.5.37.74","port":21457,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
