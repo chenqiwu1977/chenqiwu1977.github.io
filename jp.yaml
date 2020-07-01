@@ -1,252 +1,220 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 🇭🇰 香港01, server: hk566.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk566.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港02, server: hk1044.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1044.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港03, server: hk106.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: v2ray, ws-headers: {Host: hk106.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港04, server: hk109.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk109.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港05, server: hk117.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk117.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港06, server: hk123.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk123.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港07, server: sg5.guidecns.com, port: 8080, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇭🇰 香港08, server: hk130.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk130.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港09, server: hk131.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk131.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港10, server: hk1322.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1322.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港11, server: hk132.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk132.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港12, server: hk14888.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk14888.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港13, server: hk156.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk156.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港14, server: hk1744.mfjc2.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1744.mfjc2.xyz}}
-  - {name: 🇭🇰 香港15, server: hk17.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk17.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港16, server: hk1877.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1877.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港17, server: hk28.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk28.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港18, server: hk10222.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk10222.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港19, server: hk38.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: v2ray, ws-headers: {Host: hk38.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港20, server: hk67.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk67.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港21, server: hk69.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk69.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港22, server: hk92.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk92.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港23, server: hk80.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: v2ray, ws-headers: {Host: hk80.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港24, server: hk83.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk83.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港25, server: hk1000.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1000.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港26, server: hk1011.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1011.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港27, server: hk1022.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1022.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港28, server: hk1033.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1033.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港29, server: hk1333.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk1333.mfjx-vip.xyz}}
-  - {name: 🇭🇰 香港30, server: hk175.mfjx-vip.xyz, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: mfjc, ws-headers: {Host: hk175.mfjx-vip.xyz}}
+  - {"name":"🇭🇰 香港1","type":"vmess","server":"bgpbj.yhyn.xyz","port":28014,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
+
+  - {"name":"🇭🇰 香港2","type":"vmess","server":"gd.peachs.xyz","port":22004,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇭🇰 香港3","type":"vmess","server":"112.5.37.74","port":21457,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
+
+  - {"name":"🇭🇰 香港4","type":"vmess","server":"gd.peachs.xyz","port":22005,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇭🇰 香港5","type":"vmess","server":"ah.cdnyixia.xyz","port":30003,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"ah.cdnyixia.xyz"}}
+
+  - {"name":"🇭🇰 香港6","type":"vmess","server":"gd.peachs.xyz","port":22013,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇯🇵 日本1","type":"vmess","server":"gd.peachs.xyz","port":22001,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇯🇵 日本2","type":"vmess","server":"112.5.37.74","port":21454,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
+
+  - {"name":"🇯🇵 日本3","type":"vmess","server":"gd.peachs.xyz","port":22010,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇯🇵 日本4","type":"vmess","server":"bgpbj.yhyn.xyz","port":28015,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
+
+  - {"name":"🇯🇵 日本5","type":"vmess","server":"gd.peachs.xyz","port":22011,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇹🇼 台湾","type":"vmess","server":"gd.peachs.xyz","port":22014,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇸🇬新加坡1","type":"vmess","server":"bgpbj.yhyn.xyz","port":28016,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
+
+  - {"name":"🇸🇬新加坡2","type":"vmess","server":"gd.peachs.xyz","port":22002,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇸🇬新加坡3","type":"vmess","server":"112.5.37.74","port":21455,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
+
+  - {"name":"🇰🇷 韩国1","type":"vmess","server":"bgpbj.yhyn.xyz","port":28017,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
+
+  - {"name":"🇰🇷 韩国2","type":"vmess","server":"gd.peachs.xyz","port":22003,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇰🇷 韩国3","type":"vmess","server":"112.5.37.74","port":21456,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
+
+  - {"name":"🇲🇾马来西亚1","type":"vmess","server":"gd.peachs.xyz","port":22008,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇲🇾马来西亚2","type":"vmess","server":"gd.peachs.xyz","port":22009,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇲🇾马来西亚3","type":"vmess","server":"gd.peachs.xyz","port":22015,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇩🇪 德国","type":"vmess","server":"gd.peachs.xyz","port":22007,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
+  - {"name":"🇮🇳 印度","type":"vmess","server":"gd.peachs.xyz","port":22006,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
+
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
-      - 🇭🇰 香港10
-      - 🇭🇰 香港11
-      - 🇭🇰 香港12
-      - 🇭🇰 香港13
-      - 🇭🇰 香港14
-      - 🇭🇰 香港15
-      - 🇭🇰 香港16
-      - 🇭🇰 香港17
-      - 🇭🇰 香港18
-      - 🇭🇰 香港19
-      - 🇭🇰 香港20
-      - 🇭🇰 香港21
-      - 🇭🇰 香港22
-      - 🇭🇰 香港23
-      - 🇭🇰 香港24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇭🇰 香港27
-      - 🇭🇰 香港28
-      - 🇭🇰 香港29
-      - 🇭🇰 香港30
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇸🇬新加坡1
+      - 🇸🇬新加坡2
+      - 🇸🇬新加坡3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
+      - 🇹🇼 台湾
+      - 🇲🇾马来西亚1
+      - 🇲🇾马来西亚2
+      - 🇲🇾马来西亚3
+      - 🇩🇪 德国
+      - 🇮🇳 印度
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
-      - 🇭🇰 香港10
-      - 🇭🇰 香港11
-      - 🇭🇰 香港12
-      - 🇭🇰 香港13
-      - 🇭🇰 香港14
-      - 🇭🇰 香港15
-      - 🇭🇰 香港16
-      - 🇭🇰 香港17
-      - 🇭🇰 香港18
-      - 🇭🇰 香港19
-      - 🇭🇰 香港20
-      - 🇭🇰 香港21
-      - 🇭🇰 香港22
-      - 🇭🇰 香港23
-      - 🇭🇰 香港24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇭🇰 香港27
-      - 🇭🇰 香港28
-      - 🇭🇰 香港29
-      - 🇭🇰 香港30
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇸🇬新加坡1
+      - 🇸🇬新加坡2
+      - 🇸🇬新加坡3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
+      - 🇹🇼 台湾
+      - 🇲🇾马来西亚1
+      - 🇲🇾马来西亚2
+      - 🇲🇾马来西亚3
+      - 🇩🇪 德国
+      - 🇮🇳 印度
   - name: 📺 港台 TV
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
-      - 🇭🇰 香港10
-      - 🇭🇰 香港11
-      - 🇭🇰 香港12
-      - 🇭🇰 香港13
-      - 🇭🇰 香港14
-      - 🇭🇰 香港15
-      - 🇭🇰 香港16
-      - 🇭🇰 香港17
-      - 🇭🇰 香港18
-      - 🇭🇰 香港19
-      - 🇭🇰 香港20
-      - 🇭🇰 香港21
-      - 🇭🇰 香港22
-      - 🇭🇰 香港23
-      - 🇭🇰 香港24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇭🇰 香港27
-      - 🇭🇰 香港28
-      - 🇭🇰 香港29
-      - 🇭🇰 香港30
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇸🇬新加坡1
+      - 🇸🇬新加坡2
+      - 🇸🇬新加坡3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
+      - 🇹🇼 台湾
+      - 🇲🇾马来西亚1
+      - 🇲🇾马来西亚2
+      - 🇲🇾马来西亚3
+      - 🇩🇪 德国
+      - 🇮🇳 印度
       - DIRECT
   - name: 📻 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
-      - 🇭🇰 香港10
-      - 🇭🇰 香港11
-      - 🇭🇰 香港12
-      - 🇭🇰 香港13
-      - 🇭🇰 香港14
-      - 🇭🇰 香港15
-      - 🇭🇰 香港16
-      - 🇭🇰 香港17
-      - 🇭🇰 香港18
-      - 🇭🇰 香港19
-      - 🇭🇰 香港20
-      - 🇭🇰 香港21
-      - 🇭🇰 香港22
-      - 🇭🇰 香港23
-      - 🇭🇰 香港24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇭🇰 香港27
-      - 🇭🇰 香港28
-      - 🇭🇰 香港29
-      - 🇭🇰 香港30
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇸🇬新加坡1
+      - 🇸🇬新加坡2
+      - 🇸🇬新加坡3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
+      - 🇹🇼 台湾
+      - 🇲🇾马来西亚1
+      - 🇲🇾马来西亚2
+      - 🇲🇾马来西亚3
+      - 🇩🇪 德国
+      - 🇮🇳 印度
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
-      - 🇭🇰 香港10
-      - 🇭🇰 香港11
-      - 🇭🇰 香港12
-      - 🇭🇰 香港13
-      - 🇭🇰 香港14
-      - 🇭🇰 香港15
-      - 🇭🇰 香港16
-      - 🇭🇰 香港17
-      - 🇭🇰 香港18
-      - 🇭🇰 香港19
-      - 🇭🇰 香港20
-      - 🇭🇰 香港21
-      - 🇭🇰 香港22
-      - 🇭🇰 香港23
-      - 🇭🇰 香港24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇭🇰 香港27
-      - 🇭🇰 香港28
-      - 🇭🇰 香港29
-      - 🇭🇰 香港30
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇸🇬新加坡1
+      - 🇸🇬新加坡2
+      - 🇸🇬新加坡3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
+      - 🇹🇼 台湾
+      - 🇲🇾马来西亚1
+      - 🇲🇾马来西亚2
+      - 🇲🇾马来西亚3
+      - 🇩🇪 德国
+      - 🇮🇳 印度
   - name: 🌍 国际媒体
     type: select
     proxies:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
-      - 🇭🇰 香港10
-      - 🇭🇰 香港11
-      - 🇭🇰 香港12
-      - 🇭🇰 香港13
-      - 🇭🇰 香港14
-      - 🇭🇰 香港15
-      - 🇭🇰 香港16
-      - 🇭🇰 香港17
-      - 🇭🇰 香港18
-      - 🇭🇰 香港19
-      - 🇭🇰 香港20
-      - 🇭🇰 香港21
-      - 🇭🇰 香港22
-      - 🇭🇰 香港23
-      - 🇭🇰 香港24
-      - 🇭🇰 香港25
-      - 🇭🇰 香港26
-      - 🇭🇰 香港27
-      - 🇭🇰 香港28
-      - 🇭🇰 香港29
-      - 🇭🇰 香港30
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇸🇬新加坡1
+      - 🇸🇬新加坡2
+      - 🇸🇬新加坡3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
+      - 🇹🇼 台湾
+      - 🇲🇾马来西亚1
+      - 🇲🇾马来西亚2
+      - 🇲🇾马来西亚3
+      - 🇩🇪 德国
+      - 🇮🇳 印度
   - name: 🛑 全球拦截
     type: select
     proxies:
