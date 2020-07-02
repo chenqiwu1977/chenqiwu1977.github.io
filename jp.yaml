@@ -6,49 +6,28 @@ log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
   - {name: 🇭🇰 香港1, server: 47.241.111.225, port: 47365, type: vmess, uuid: e17b5175-23f5-4571-e81f-d4cc545d2c75, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港2, server: azc.zzmy.me, port: 80, type: vmess, uuid: f1971b4f-42a3-36cf-a497-441f775d1719, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: 360622400-kraaz1.ninefishpump.com}}
-  - {name: 🇭🇰 香港3, server: 119.188.97.39, port: 80, type: vmess, uuid: f1971b4f-42a3-36cf-a497-441f775d1719, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /imga, ws-headers: {Host: 360622400-f1el.ninefishpump.com}}
-
+  - {name: 🇭🇰 香港2, server: zaz01.cu.node.cm, port: 50049, type: vmess, uuid: e3eed027-05e5-41f8-b00e-f692d83d51be, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4, server: zaz01.cu.node.cm, port: 50014, type: vmess, uuid: e3eed027-05e5-41f8-b00e-f692d83d51be, alterId: 2, cipher: auto, tls: false}
   - {"name":"🇭🇰 香港4","type":"vmess","server":"gd.peachs.xyz","port":22005,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇭🇰 香港5","type":"vmess","server":"ah.cdnyixia.xyz","port":30003,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"ah.cdnyixia.xyz"}}
-
   - {"name":"🇭🇰 香港6","type":"vmess","server":"gd.peachs.xyz","port":22013,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇯🇵 日本1","type":"vmess","server":"gd.peachs.xyz","port":22001,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇯🇵 日本2","type":"vmess","server":"112.5.37.74","port":21454,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
-
   - {"name":"🇯🇵 日本3","type":"vmess","server":"gd.peachs.xyz","port":22010,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇯🇵 日本4","type":"vmess","server":"bgpbj.yhyn.xyz","port":28015,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
-
   - {"name":"🇯🇵 日本5","type":"vmess","server":"gd.peachs.xyz","port":22011,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇹🇼 台湾","type":"vmess","server":"gd.peachs.xyz","port":22014,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇸🇬新加坡1","type":"vmess","server":"bgpbj.yhyn.xyz","port":28016,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
-
   - {"name":"🇸🇬新加坡2","type":"vmess","server":"gd.peachs.xyz","port":22002,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇸🇬新加坡3","type":"vmess","server":"112.5.37.74","port":21455,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
-
   - {"name":"🇰🇷 韩国1","type":"vmess","server":"bgpbj.yhyn.xyz","port":28017,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"bgpbj.yhyn.xyz"}}
-
   - {"name":"🇰🇷 韩国2","type":"vmess","server":"gd.peachs.xyz","port":22003,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇰🇷 韩国3","type":"vmess","server":"112.5.37.74","port":21456,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"112.5.37.74"}}
-
   - {"name":"🇲🇾马来西亚1","type":"vmess","server":"gd.peachs.xyz","port":22008,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇲🇾马来西亚2","type":"vmess","server":"gd.peachs.xyz","port":22009,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇲🇾马来西亚3","type":"vmess","server":"gd.peachs.xyz","port":22015,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇩🇪 德国","type":"vmess","server":"gd.peachs.xyz","port":22007,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
   - {"name":"🇮🇳 印度","type":"vmess","server":"gd.peachs.xyz","port":22006,"uuid":"9462d2fd-24eb-3f39-bc02-814829b57749","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/peachs","ws-headers":{"Host":"gd.peachs.xyz"}}
-
 Proxy Group:
   - name: 🔰 节点选择
     type: select
