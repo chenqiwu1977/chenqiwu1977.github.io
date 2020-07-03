@@ -749,6 +749,16 @@ HBO 溫馨家庭,http://t.gerss.cn/dl/htv.php?id=222
 HBO 強檔鉅獻,http://t.gerss.cn/dl/htv.php?id=223
 TLC 旅遊生活,http://t.gerss.cn/dl/htv.php?id=21
 成    人,#genre#
+TVBS新聞,https://www.youtube.com/watch?v=Hu1FkdAOws0
+民視新聞,https://www.youtube.com/watch?v=XxJKnDLYZz4
+三立LIVE新聞,https://www.youtube.com/watch?v=4ZVUmEUFwaY
+三立iNEWS新聞,https://www.youtube.com/watch?v=ag9nrgExHyg
+中天新聞,https://www.youtube.com/watch?v=wUPPkSANpyo
+東森新聞,https://www.youtube.com/watch?v=RaIJ767Bj_M
+東森財經新聞,https://www.youtube.com/watch?v=vqutyFdTJFQ
+華視新聞,https://www.youtube.com/watch?v=TL8mmew3jb8
+中視新聞,https://www.youtube.com/watch?v=wxQcIb8zcPA
+台視新聞,https://www.youtube.com/watch?v=NbjI0cARzjQ
 松视一台,https://717616144.r.worldssl.net/717616144/tv/ttv11/chunklist_w1523462549.m3u8
 松视二台,http://f3.twtvcdn.com:8080/live/403/513c6a1fcdd5255952012f562f1d476f/index.m3u8
 松视三台,http://f3.twtvcdn.com:8080/live/404/a23ffebd7243f9c39d180ece4f26b123/index.m3u8
