@@ -44,8 +44,6 @@ Proxy Group:
       - 🇩🇪 德国15
       - 🇩🇪 德国16
       - 🇩🇪 德国17
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯2
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -68,8 +66,6 @@ Proxy Group:
       - 🇩🇪 德国15
       - 🇩🇪 德国16
       - 🇩🇪 德国17
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯2
   - name: 📺 港台 TV
     type: select
     proxies:
@@ -92,8 +88,6 @@ Proxy Group:
       - 🇩🇪 德国15
       - 🇩🇪 德国16
       - 🇩🇪 德国17
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯2
       - DIRECT
   - name: 📻 电报信息
     type: select
@@ -117,8 +111,6 @@ Proxy Group:
       - 🇩🇪 德国15
       - 🇩🇪 德国16
       - 🇩🇪 德国17
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯2
   - name: 📹 YouTube
     type: select
     proxies:
@@ -141,8 +133,6 @@ Proxy Group:
       - 🇩🇪 德国15
       - 🇩🇪 德国16
       - 🇩🇪 德国17
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯2
   - name: 🌍 国际媒体
     type: select
     proxies:
@@ -166,8 +156,6 @@ Proxy Group:
       - 🇩🇪 德国15
       - 🇩🇪 德国16
       - 🇩🇪 德国17
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯2
   - name: 🛑 全球拦截
     type: select
     proxies:
