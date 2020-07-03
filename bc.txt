@@ -659,6 +659,9 @@ CIBN怡家,http://v.iam7.top/iptv/cibn/?id=1108&code=JiaoYu
 CIBN新知,http://v.iam7.top/iptv/cibn/?id=1108&code=FengShang
 CIBN汽车,http://v.iam7.top/iptv/cibn/?id=1108&code=QiChe
 港    台,#genre#
+NOW新闻,http://77.83.242.11/hk168.php?id=16&xl=2
+有线新闻，http://liveicm.utvlive.top/live/4cc64fb362004798b222978935590b2c/1980ba5c365e4f049f99aced1277303c-3.m3u8
+有线新闻,http://77.83.242.11/hk168.php?id=31&xl=2
 地理野生,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDM4
 天映频道,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0NDE_
 东森新闻,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGRzeHdfb3R0
