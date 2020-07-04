@@ -749,48 +749,32 @@ HBO 溫馨家庭,http://t.gerss.cn/dl/htv.php?id=222
 HBO 強檔鉅獻,http://t.gerss.cn/dl/htv.php?id=223
 TLC 旅遊生活,http://t.gerss.cn/dl/htv.php?id=21
 成    人,#genre#
-TVBS新聞,https://www.youtube.com/watch?v=Hu1FkdAOws0
-民視新聞,https://www.youtube.com/watch?v=XxJKnDLYZz4
-三立LIVE新聞,https://www.youtube.com/watch?v=4ZVUmEUFwaY
-三立iNEWS新聞,https://www.youtube.com/watch?v=ag9nrgExHyg
-中天新聞,https://www.youtube.com/watch?v=wUPPkSANpyo
-東森新聞,https://www.youtube.com/watch?v=RaIJ767Bj_M
-東森財經新聞,https://www.youtube.com/watch?v=vqutyFdTJFQ
-華視新聞,https://www.youtube.com/watch?v=TL8mmew3jb8
-中視新聞,https://www.youtube.com/watch?v=wxQcIb8zcPA
-台視新聞,https://www.youtube.com/watch?v=NbjI0cARzjQ
-松视一台,https://717616144.r.worldssl.net/717616144/tv/ttv11/chunklist_w1523462549.m3u8
-松视二台,http://f3.twtvcdn.com:8080/live/403/513c6a1fcdd5255952012f562f1d476f/index.m3u8
-松视三台,http://f3.twtvcdn.com:8080/live/404/a23ffebd7243f9c39d180ece4f26b123/index.m3u8
-香蕉台,http://f3.twtvcdn.com:8080/live/408/600c80973cb2c711a19c68b475e4a7b0/index.m3u8
-彩虹电影,http://f3.twtvcdn.com:8080/live/413/8eb3d52ac6bbac244f23234e87c0bd7d/index.m3u8
-松視1台,http://f3.twtvcdn.com:8080/live/402/19ee328ac03b0581e8821c1ee081f2a8/index.m3u8
-驚豔台,http://f3.twtvcdn.com:8080/live/409/f9e8c99f9b354d9f90ebaee0c118d95f/index.m3u8
-彩虹E台,http://f3.twtvcdn.com:8080/live/405/2697727d2c8ba710a92b59c93c50ff71/index.m3u8
-K頻道,http://f3.twtvcdn.com:8080/live/406/42b9941a1157089245f7fa8f32538eea/index.m3u8
-潘朵拉完美台,http://f3.twtvcdn.com:8080/live/410/a5198e7f2e806d924d10babbd70e896a/index.m3u8
-潘朵拉粉紅台,http://f3.twtvcdn.com:8080/live/411/6cc07e626c2671b4347950362bcfd50f/index.m3u8
-HOT頻道,http://f3.twtvcdn.com:8080/live/407/00de21ff3b4fca00c26540892fd82e57/index.m3u8
-HAPPY頻道,http://f3.twtvcdn.com:8080/live/412/125278928089a8558debe10a90456d88/index.m3u8
-一本HD道,http://f3.twtvcdn.com:8080/live/414/73ef40b5d99a79280e90e6d827b9d066/index.m3u8
-二本HD道,http://f3.twtvcdn.com:8080/live/415/0f6b963222565e106bbed7ced9c7fb2a/index.m3u8
-東京熱,http://f3.twtvcdn.com:8080/live/416/7c73ccafa6c5273c1a5941cde59d54da/index.m3u8
-EROX HD,http://f3.twtvcdn.com:8080/live/456/903a2e9b1e3575375c63a56ae2efc288/index.m3u8
-Dorcel HD,http://f3.twtvcdn.com:8080/live/454/c7c4c9ab45f7c2174591330bb3334676/index.m3u8
-XYMAX HD,http://f3.twtvcdn.com:8080/live/458/156f02ee12e4602190402e5bca956890/index.m3u8
-俄罗斯花花公子,p9p://192.95.32.107:9906/5a8b29f1000274366b4365f97edc77e7&link=盗链死全家
-俄罗斯无码1,p9p://192.95.32.107:9906/5a067bc5000b238264fc087b26575830&link=盗链死全家
-俄罗斯无码2,p9p://192.95.32.107:9906/5a653bb4000695f9d71908f1127c6ea5&link=盗链死全家 
-一本道,p8p://0198.02686.cc:16871/5d25b7e900054d910a2fd126812250f8.ts 
-二本道,p8p://0198.02686.cc:16871/5d25b7e40009b23e0a2fbebea59aef80.ts 
-三本道,p8p://0198.02686.cc:16871/5d25b7e6000300ff0a2fc4d86a4b3abf.ts 
-四本道,p8p://0198.02686.cc:16871/5d25b7e50001d4fd0a2fc0a3e867b01c.ts 
-五本道,p8p://0198.02686.cc:16871/5d25b7e5000ad9f60a2fc2f2dffda85a.ts 
-六本道,p8p://0198.02686.cc:16871/5d25b7e6000a7b120a2fc6c21324f51c.ts 
-七本道,p8p://0198.02686.cc:16871/5d25b7e700043adb0a2fc9103d0f3e9d.ts 
-八本道,p8p://0198.02686.cc:16871/5d25b7e7000b9ffe0a2fcaf5ddbba365.ts 
-九本道,p8p://0198.02686.cc:16871/5d25b7e80003e23d0a2fcce197673935.ts 
-十本道,p8p://0198.02686.cc:16871/5d25b7e8000d10950a2fcf3b28b5d106.ts 
+松视1,http://f6.apps8888.com:8080/live/402/92df1115eba6a3f5d775dd1318a8892f/index.m3u8
+松视2,http://f6.apps8888.com:8080/live/403/c8f4cc4e018664b818821a1856aa28fd/index.m3u8
+松视3,http://f6.apps8888.com:8080/live/404/4aed69e4c6e6d7addb7def002cbc861c/index.m3u8
+香蕉台,http://f6.apps8888.com:8080/live/408/5f7ae18976739f3c728e52ae18c2d5aa/index.m3u8
+潘朵拉完美,http://f6.apps8888.com:8080/live/410/4c9517eb6f9be64adefcd7d379be361c/index.m3u8
+潘朵拉粉红,http://f6.apps8888.com:8080/live/411/70a11494fe22f836502b17ccc23752a7/index.m3u8
+彩虹电影,http://f6.apps8888.com:8080/live/413/13ab9ba2d1c79b975c6b21c67a11df62/index.m3u8
+彩虹K,http://f6.apps8888.com:8080/live/406/2f14ce8f6d0c731486663532ee615e32/index.m3u8
+彩虹E,http://f6.apps8888.com:8080/live/405/fd8b8df02c2f3f79820cf80c39bde839/index.m3u8
+一本道,http://f6.apps8888.com:8080/live/414/669d8f9940d61520e27d65cfcce57994/index.m3u8
+二本道,http://f6.apps8888.com:8080/live/415/9d50aaef327e3cbeddd09870c322581b/index.m3u8
+东京热,http://f6.apps8888.com:8080/live/416/239249c54a9f4176469b48a3891a5a05/index.m3u8
+HOT,http://f6.apps8888.com:8080/live/407/d9222c50f878e95ab5097b73dcb0c9fb/index.m3u8
+happy,http://f6.apps8888.com:8080/live/412/cff2e4a302d15b51021413afc0e1e9f5/index.m3u8
+惊艳台,http://f6.apps8888.com:8080/live/409/f307e52d6025a869c80d347b1793f4ac/index.m3u8
+Erox HD,http://f6.apps8888.com:8080/live/456/297a932a0419ff05f088d9f287473ade/index.m3u8
+Dorcel HD,http://f6.apps8888.com:8080/live/454/411d1a1b24086ec3bd231af6968ffb67/index.m3u8
+Babes TV HD,http://f6.apps8888.com:8080/live/458/ec21dcf35851b42b1dc2578da0d5a098/index.m3u8
+Hustler HD,http://f6.apps8888.com:8080/live/451/1dc3e7113db11974e47eb11ea6d2dbd4/index.m3u8
+SCT Classic,http://f6.apps8888.com:8080/live/462/e5110e4b839df0cd374d0de74f775d40/index.m3u8
+Redlight HD,http://f6.apps8888.com:8080/live/452/d6ace6331b534d1169c7f6f22326b508/index.m3u8
+SEX ATION HD,http://f6.apps8888.com:8080/live/459/f836de6ef2634f7ca951046c7c300be8/index.m3u8
+Super One HD,http://f6.apps8888.com:8080/live/457/c48394435846b2494d93bf37dcc306a7/index.m3u8
+Prvate TV,http://f6.apps8888.com:8080/live/453/a29551ad5110ba47220e9b5c57afbd8d/index.m3u8
+Passie,http://f6.apps8888.com:8080/live/461/bcf2bf2bf8f046a83b81ff30ace5b9e0/index.m3u8
+Vivid Red HD,http://f6.apps8888.com:8080/live/455/71e4abbb112cbec67ac8359d11633dfc/index.m3u8
 vip玩家频道,http://t.gerss.cn/dl/htv.php?id=401
 vipHappy,http://t.gerss.cn/dl/htv.php?id=402
 vipHOT频道,http://t.gerss.cn/dl/htv.php?id=403
@@ -806,8 +790,6 @@ vip潘多拉粉红台,http://t.gerss.cn/dl/htv.php?id=412
 vip惊艳台,http://t.gerss.cn/dl/htv.php?id=413
 vip艳台,http://t.gerss.cn/dl/htv.php?id=409
 vip欧美HD,http://178.217.72.66/225.201.2.61/tracks-v1a1/mono.m3u8
-vip黑免子,http://145.239.0.5:65432/live/e57d72cc80b34e039d886dd2de47e601/108a46480a0c40aabba77b89be64c140/39.m3u8
-vip红兔子,http://145.239.0.5:65432/live/c4942261a36e406dbe01dc3229a4bf2a/8e664d4ee6e64db28c1d6bc51eb51a24/186.m3u8
 vip1,http://125.227.210.37:9051/VideoInput/play.ts
 vip2,http://125.227.210.37:9053/VideoInput/play.ts
 vip3,http://125.227.210.37:9054/VideoInput/play.ts
