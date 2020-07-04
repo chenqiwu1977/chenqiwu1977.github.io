@@ -1,138 +1,369 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 🇭🇰 香港01, server: 47.241.111.225, port: 47365, type: vmess, uuid: e17b5175-23f5-4571-e81f-d4cc545d2c75, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡1, server: sg5.guidecns.com, port: 8080, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇸🇬 新加坡2, server: 120.232.181.245, port: 30005, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
-  - {name: 🇸🇬 新加坡3, server: hn-yd001.freexyz.cf, port: 20012, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇸🇬 新加坡4, server: hnyd-01.freepbox.tk, port: 20011, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇸🇬 新加坡5, server: sn-lt-01.guidecns.com, port: 30006, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {"name":"🇹🇼 台湾1","type":"vmess","server":"183.232.53.233","port":80,"uuid":"0e09224a-e0cb-3b9c-b781-3cad0a0aedc5","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/tnt-sg1","ws-headers":{"Host":"i26klin5.lancdn.com"}}
-
-  - {"name":"🇹🇼 台湾2","type":"vmess","server":"183.232.53.237","port":80,"uuid":"0e09224a-e0cb-3b9c-b781-3cad0a0aedc5","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/tnt-jp1","ws-headers":{"Host":"i26klin5.lancdn.com"}}
-
-  - {"name":"🇹🇼 台湾3","type":"vmess","server":"183.232.53.239","port":80,"uuid":"0e09224a-e0cb-3b9c-b781-3cad0a0aedc5","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/tnt-hg1","ws-headers":{"Host":"i26klin5.lancdn.com"}}
-
-  - {"name":"🇹🇼 台湾4","type":"vmess","server":"183.232.53.232","port":80,"uuid":"0e09224a-e0cb-3b9c-b781-3cad0a0aedc5","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/tnt-hk1","ws-headers":{"Host":"i26klin5.lancdn.com"}}
-
-  - {name: 🇹🇼 台湾5, server: cdn.jxkgo.xyz, port: 80, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /shaoji, ws-headers: {Host: kira.banong.tech}}
-
-  - {name: 🇭🇰 香港1, server: cn2-1.hanyang108.com, port: 21003, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
-  - {name: 🇭🇰 香港2, server: cn2-1.hanyang108.com, port: 21004, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
-  - {name: 🇭🇰 香港3, server: hn.yd.freexyz.club, port: 25012, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
-  - {name: 🇭🇰 香港4, server: hn.yd.freexyz.club, port: 20003, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
-  - {name: 🇭🇰 香港5, server: hn.yd.freexyz.club, port: 20004, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
-  - {name: 🇯🇵 日本01, server: xixi-shlt.ddns-only.xyz, port: 14407, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174241.ddns-only.xyz}}
-  - {name: 🇯🇵 日本02, server: xixi-shlt.ddns-only.xyz, port: 14409, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174243.ddns-only.xyz}}
-  - {name: 🇯🇵 日本03, server: xixi-shlt.ddns-only.xyz, port: 14465, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo01.ddns-only.xyz}}
-  - {name: 🇯🇵 日本04, server: xixi-gzyd.ddns-only.xyz, port: 14467, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo02.ddns-only.xyz}}
-  - {name: 🇯🇵 日本05, server: xixi-gzyd.ddns-only.xyz, port: 14427, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-3805.ddns-only.xyz}}
-  - {name: "🇯🇵 日本06", server: zhilian-sg-z.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: "🇯🇵 日本07", server: zhilian-jp-u.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: "🇯🇵 日本08", server: zhilian-jp-v.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: "🇯🇵 日本09", server: zhilian-ru-a.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: "🇯🇵 日本10", server: zhilian-ru-b.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: 🇹🇼 台湾google, server: 35.201.182.97, port: 443, type: vmess, uuid: 4ada02da-41d1-4a75-89cf-65ba6e40e984, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.201.182.97}}
+  - {name: 🇭🇰 香港01, server: master-4.ziyory.com, port: 20000, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-3.ziyory.com}}
+  - {name: 🇭🇰 香港02, server: master-6.ziyory.com, port: 10369, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-3.ziyory.com}}
+  - {name: 🇭🇰 香港03, server: master-7.ziyory.com, port: 10896, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-3.ziyory.com}}
+  - {name: 🇭🇰 香港04, server: master-1.ziyory.com, port: 20000, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-3.ziyory.com}}
+  - {name: 🇭🇰 香港05, server: master-2.ziyory.com, port: 20000, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-3.ziyory.com}}
+  - {name: 🇭🇰 香港06, server: master-5.ziyory.com, port: 20000, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-3.ziyory.com}}
+  - {name: 🇭🇰 香港07, server: master-6.ziyory.com, port: 10365, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-1.ziyory.com}}
+  - {name: 🇭🇰 香港08, server: master-7.ziyory.com, port: 10897, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-1.ziyory.com}}
+  - {name: 🇭🇰 香港09, server: master-1.ziyory.com, port: 20001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-1.ziyory.com}}
+  - {name: 🇭🇰 香港10, server: master-2.ziyory.com, port: 20001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-1.ziyory.com}}
+  - {name: 🇭🇰 香港11, server: master-5.ziyory.com, port: 20001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-1.ziyory.com}}
+  - {name: 🇭🇰 香港12, server: master-1.ziyory.com, port: 10001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-2.ziyory.com}}
+  - {name: 🇭🇰 香港13, server: master-2.ziyory.com, port: 10001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-2.ziyory.com}}
+  - {name: 🇭🇰 香港14, server: master-5.ziyory.com, port: 10001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-2.ziyory.com}}
+  - {name: 🇭🇰 香港15, server: master-4.ziyory.com, port: 10001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-2.ziyory.com}}
+  - {name: 🇭🇰 香港16, server: master-6.ziyory.com, port: 10364, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-2.ziyory.com}}
+  - {name: 🇭🇰 香港17, server: master-7.ziyory.com, port: 10894, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: hk-2.ziyory.com}}
+  - {name: 🇭🇰 香港18, server: xixi-shlt.ddns-only.xyz, port: 14407, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174241.ddns-only.xyz}}
+  - {name: 🇭🇰 香港19, server: xixi-shlt.ddns-only.xyz, port: 14409, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174243.ddns-only.xyz}}
+  - {name: 🇭🇰 香港20, server: xixi-shlt.ddns-only.xyz, port: 14465, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo01.ddns-only.xyz}}
+  - {name: 🇭🇰 香港21, server: xixi-gzyd.ddns-only.xyz, port: 14467, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo02.ddns-only.xyz}}
+  - {name: 🇭🇰 香港22, server: 47.241.111.225, port: 47365, type: vmess, uuid: e17b5175-23f5-4571-e81f-d4cc545d2c75, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港23, server: bgp.1.bianhuabai.pw, port: 10259, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.1.bianhuabai.pw}}
+  - {name: 🇭🇰 香港24, server: jp.5.bianhuabai.pw, port: 80, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp.5.bianhuabai.pw}}
+  - {name: 🇭🇰 香港25, server: bgp.1.bianhuabai.pw, port: 10258, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.1.bianhuabai.pw}}
+  - {name: 🇹🇼 台湾01, server: master-1.ziyory.com, port: 11006, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-6.ziyory.com}}
+  - {name: 🇹🇼 台湾02, server: master-2.ziyory.com, port: 11006, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-6.ziyory.com}}
+  - {name: 🇹🇼 台湾03, server: master-5.ziyory.com, port: 11006, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-6.ziyory.com}}
+  - {name: 🇹🇼 台湾04, server: master-4.ziyory.com, port: 11301, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: tw-1.ziyory.com}}
+  - {name: 🇹🇼 台湾05, server: master-6.ziyory.com, port: 10368, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: tw-1.ziyory.com}}
+  - {name: 🇹🇼 台湾06, server: master-7.ziyory.com, port: 10893, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: tw-1.ziyory.com}}
+  - {name: 🇹🇼 台湾07, server: master-4.ziyory.com, port: 11302, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: tw-2.ziyory.com}}
+  - {name: 🇹🇼 台湾08, server: master-6.ziyory.com, port: 10370, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: tw-2.ziyory.com}}
+  - {name: 🇹🇼 台湾09, server: master-7.ziyory.com, port: 10895, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: tw-2.ziyory.com}}
+  - {name: 🇹🇼 台湾10, server: master-1.ziyory.com, port: 11843, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-6.ziyory.com}}
+  - {name: 🇯🇵 日本01, server: master-1.ziyory.com, port: 11002, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-2.ziyory.com}}
+  - {name: 🇯🇵 日本02, server: master-2.ziyory.com, port: 11002, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-2.ziyory.com}}
+  - {name: 🇯🇵 日本03, server: master-5.ziyory.com, port: 11002, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-2.ziyory.com}}
+  - {name: 🇯🇵 日本04, server: master-1.ziyory.com, port: 11003, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-3.ziyory.com}}
+  - {name: 🇯🇵 日本05, server: master-2.ziyory.com, port: 11003, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-3.ziyory.com}}
+  - {name: 🇯🇵 日本06, server: master-5.ziyory.com, port: 11003, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-3.ziyory.com}}
+  - {name: 🇯🇵 日本07, server: master-1.ziyory.com, port: 11001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本08, server: master-2.ziyory.com, port: 11001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本09, server: master-4.ziyory.com, port: 11001, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本10, server: master-1.ziyory.com, port: 11004, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本11, server: master-2.ziyory.com, port: 11004, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本12, server: master-4.ziyory.com, port: 11004, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本13, server: master-5.ziyory.com, port: 11004, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本14, server: cn2-1.hanyang108.com, port: 21003, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
+  - {name: 🇯🇵 日本15, server: cn2-1.hanyang108.com, port: 21004, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
+  - {name: 🇯🇵 日本16, server: hn.yd.freexyz.club, port: 25012, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
+  - {name: 🇯🇵 日本17, server: hn.yd.freexyz.club, port: 20003, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
+  - {name: 🇯🇵 日本18, server: hn.yd.freexyz.club, port: 20004, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ajax.microsoft.com}}
+  - {name: 🇯🇵 日本19, server: sg5.guidecns.com, port: 8080, type: vmess, uuid: e457c2f3-d2a8-3616-8cc6-9c2b7a6d27fc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇯🇵 日本20, server: master-1.ziyory.com, port: 11008, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-8.ziyory.com}}
+  - {name: 🇯🇵 日本21, server: master-2.ziyory.com, port: 11008, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-8.ziyory.com}}
+  - {name: 🇯🇵 日本22, server: master-5.ziyory.com, port: 11008, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-8.ziyory.com}}
+  - {name: 🇯🇵 日本23, server: master-1.ziyory.com, port: 11840, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-2.ziyory.com}}
+  - {name: 🇯🇵 日本24, server: master-1.ziyory.com, port: 11841, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-3.ziyory.com}}
+  - {name: 🇯🇵 日本25, server: s1.shcn2.xlddns.xyz, port: 10994, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本26, server: sx2.shcn2.xlddns.xyz, port: 15738, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本27, server: s1.shcn2.xlddns.xyz, port: 11000, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本28, server: sx2.shcn2.xlddns.xyz, port: 15741, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本29, server: s1.shcn2.xlddns.xyz, port: 10991, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-4.ziyory.com}}
+  - {name: 🇯🇵 日本30, server: sx2.shcn2.xlddns.xyz, port: 15739, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本31, server: master-6.ziyory.com, port: 10366, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本32, server: master-7.ziyory.com, port: 10891, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本33, server: master-1.ziyory.com, port: 11838, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-1.ziyory.com}}
+  - {name: 🇯🇵 日本34, server: master-6.ziyory.com, port: 10367, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-7.ziyory.com}}
+  - {name: 🇯🇵 日本35, server: master-7.ziyory.com, port: 10892, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-7.ziyory.com}}
+  - {name: 🇯🇵 日本36, server: master-4.ziyory.com, port: 11007, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-7.ziyory.com}}
+  - {name: 🇯🇵 日本37, server: master-1.ziyory.com, port: 11007, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-7.ziyory.com}}
+  - {name: 🇯🇵 日本38, server: master-1.ziyory.com, port: 11839, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-7.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯01, server: master-1.ziyory.com, port: 11101, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-1.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯02, server: master-2.ziyory.com, port: 11101, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-1.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯03, server: master-4.ziyory.com, port: 11101, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-1.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯04, server: master-5.ziyory.com, port: 11101, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-1.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯05, server: master-1.ziyory.com, port: 11102, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-3.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯06, server: master-2.ziyory.com, port: 11102, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-3.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯07, server: master-4.ziyory.com, port: 11102, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-3.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯08, server: master-5.ziyory.com, port: 11102, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: ru-3.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯09, server: master-1.ziyory.com, port: 11005, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-5.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯10, server: master-2.ziyory.com, port: 11005, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-5.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯11, server: master-5.ziyory.com, port: 11005, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-5.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯12, server: master-1.ziyory.com, port: 11842, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: jp-5.ziyory.com}}
+  - {name: 🇷🇺 俄罗斯13, server: us-2.ziyory.com, port: 443, type: vmess, uuid: 219EE7E1-1F0D-FF92-D7FD-3412132D9C94, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ziyory, ws-headers: {Host: us-2.ziyory.com}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🇭🇰 香港01
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾3
-      - 🇹🇼 台湾4
-      - 🇹🇼 台湾5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港10
+      - 🇭🇰 香港11
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港14
+      - 🇭🇰 香港15
+      - 🇭🇰 香港16
+      - 🇭🇰 香港17
+      - 🇭🇰 香港18
+      - 🇭🇰 香港19
+      - 🇭🇰 香港20
+      - 🇭🇰 香港21
+      - 🇭🇰 香港22
+      - 🇭🇰 香港23
+      - 🇭🇰 香港24
+      - 🇭🇰 香港25
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾10
       - 🇯🇵 日本01
       - 🇯🇵 日本02
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - "🇯🇵 日本06"
-      - "🇯🇵 日本07"
-      - "🇯🇵 日本08"
-      - "🇯🇵 日本09"
-      - "🇯🇵 日本10"
-      - 🇹🇼 台湾google
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - 🇯🇵 日本11
+      - 🇯🇵 日本12
+      - 🇯🇵 日本13
+      - 🇯🇵 日本14
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本17
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇯🇵 日本20
+      - 🇯🇵 日本21
+      - 🇯🇵 日本22
+      - 🇯🇵 日本23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
+      - 🇯🇵 日本34
+      - 🇯🇵 日本35
+      - 🇯🇵 日本36
+      - 🇯🇵 日本37
+      - 🇯🇵 日本38
+      - 🇷🇺 俄罗斯01
+      - 🇷🇺 俄罗斯02
+      - 🇷🇺 俄罗斯03
+      - 🇷🇺 俄罗斯04
+      - 🇷🇺 俄罗斯05
+      - 🇷🇺 俄罗斯06
+      - 🇷🇺 俄罗斯07
+      - 🇷🇺 俄罗斯08
+      - 🇷🇺 俄罗斯09
+      - 🇷🇺 俄罗斯10
+      - 🇷🇺 俄罗斯11
+      - 🇷🇺 俄罗斯12
+      - 🇷🇺 俄罗斯13
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
       - 🇭🇰 香港01
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾3
-      - 🇹🇼 台湾4
-      - 🇹🇼 台湾5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港10
+      - 🇭🇰 香港11
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港14
+      - 🇭🇰 香港15
+      - 🇭🇰 香港16
+      - 🇭🇰 香港17
+      - 🇭🇰 香港18
+      - 🇭🇰 香港19
+      - 🇭🇰 香港20
+      - 🇭🇰 香港21
+      - 🇭🇰 香港22
+      - 🇭🇰 香港23
+      - 🇭🇰 香港24
+      - 🇭🇰 香港25
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾10
       - 🇯🇵 日本01
       - 🇯🇵 日本02
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - "🇯🇵 日本06"
-      - "🇯🇵 日本07"
-      - "🇯🇵 日本08"
-      - "🇯🇵 日本09"
-      - "🇯🇵 日本10"
-      - 🇹🇼 台湾google
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - 🇯🇵 日本11
+      - 🇯🇵 日本12
+      - 🇯🇵 日本13
+      - 🇯🇵 日本14
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本17
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇯🇵 日本20
+      - 🇯🇵 日本21
+      - 🇯🇵 日本22
+      - 🇯🇵 日本23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
+      - 🇯🇵 日本34
+      - 🇯🇵 日本35
+      - 🇯🇵 日本36
+      - 🇯🇵 日本37
+      - 🇯🇵 日本38
+      - 🇷🇺 俄罗斯01
+      - 🇷🇺 俄罗斯02
+      - 🇷🇺 俄罗斯03
+      - 🇷🇺 俄罗斯04
+      - 🇷🇺 俄罗斯05
+      - 🇷🇺 俄罗斯06
+      - 🇷🇺 俄罗斯07
+      - 🇷🇺 俄罗斯08
+      - 🇷🇺 俄罗斯09
+      - 🇷🇺 俄罗斯10
+      - 🇷🇺 俄罗斯11
+      - 🇷🇺 俄罗斯12
+      - 🇷🇺 俄罗斯13
   - name: 📺 港台 TV
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港01
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾3
-      - 🇹🇼 台湾4
-      - 🇹🇼 台湾5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港10
+      - 🇭🇰 香港11
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港14
+      - 🇭🇰 香港15
+      - 🇭🇰 香港16
+      - 🇭🇰 香港17
+      - 🇭🇰 香港18
+      - 🇭🇰 香港19
+      - 🇭🇰 香港20
+      - 🇭🇰 香港21
+      - 🇭🇰 香港22
+      - 🇭🇰 香港23
+      - 🇭🇰 香港24
+      - 🇭🇰 香港25
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾10
       - 🇯🇵 日本01
       - 🇯🇵 日本02
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - "🇯🇵 日本06"
-      - "🇯🇵 日本07"
-      - "🇯🇵 日本08"
-      - "🇯🇵 日本09"
-      - "🇯🇵 日本10"
-      - 🇹🇼 台湾google
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - 🇯🇵 日本11
+      - 🇯🇵 日本12
+      - 🇯🇵 日本13
+      - 🇯🇵 日本14
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本17
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇯🇵 日本20
+      - 🇯🇵 日本21
+      - 🇯🇵 日本22
+      - 🇯🇵 日本23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
+      - 🇯🇵 日本34
+      - 🇯🇵 日本35
+      - 🇯🇵 日本36
+      - 🇯🇵 日本37
+      - 🇯🇵 日本38
+      - 🇷🇺 俄罗斯01
+      - 🇷🇺 俄罗斯02
+      - 🇷🇺 俄罗斯03
+      - 🇷🇺 俄罗斯04
+      - 🇷🇺 俄罗斯05
+      - 🇷🇺 俄罗斯06
+      - 🇷🇺 俄罗斯07
+      - 🇷🇺 俄罗斯08
+      - 🇷🇺 俄罗斯09
+      - 🇷🇺 俄罗斯10
+      - 🇷🇺 俄罗斯11
+      - 🇷🇺 俄罗斯12
+      - 🇷🇺 俄罗斯13
       - DIRECT
   - name: 📻 电报信息
     type: select
@@ -140,64 +371,182 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港01
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾3
-      - 🇹🇼 台湾4
-      - 🇹🇼 台湾5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港10
+      - 🇭🇰 香港11
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港14
+      - 🇭🇰 香港15
+      - 🇭🇰 香港16
+      - 🇭🇰 香港17
+      - 🇭🇰 香港18
+      - 🇭🇰 香港19
+      - 🇭🇰 香港20
+      - 🇭🇰 香港21
+      - 🇭🇰 香港22
+      - 🇭🇰 香港23
+      - 🇭🇰 香港24
+      - 🇭🇰 香港25
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾10
       - 🇯🇵 日本01
       - 🇯🇵 日本02
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - "🇯🇵 日本06"
-      - "🇯🇵 日本07"
-      - "🇯🇵 日本08"
-      - "🇯🇵 日本09"
-      - "🇯🇵 日本10"
-      - 🇹🇼 台湾google
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - 🇯🇵 日本11
+      - 🇯🇵 日本12
+      - 🇯🇵 日本13
+      - 🇯🇵 日本14
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本17
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇯🇵 日本20
+      - 🇯🇵 日本21
+      - 🇯🇵 日本22
+      - 🇯🇵 日本23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
+      - 🇯🇵 日本34
+      - 🇯🇵 日本35
+      - 🇯🇵 日本36
+      - 🇯🇵 日本37
+      - 🇯🇵 日本38
+      - 🇷🇺 俄罗斯01
+      - 🇷🇺 俄罗斯02
+      - 🇷🇺 俄罗斯03
+      - 🇷🇺 俄罗斯04
+      - 🇷🇺 俄罗斯05
+      - 🇷🇺 俄罗斯06
+      - 🇷🇺 俄罗斯07
+      - 🇷🇺 俄罗斯08
+      - 🇷🇺 俄罗斯09
+      - 🇷🇺 俄罗斯10
+      - 🇷🇺 俄罗斯11
+      - 🇷🇺 俄罗斯12
+      - 🇷🇺 俄罗斯13
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港01
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾3
-      - 🇹🇼 台湾4
-      - 🇹🇼 台湾5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港10
+      - 🇭🇰 香港11
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港14
+      - 🇭🇰 香港15
+      - 🇭🇰 香港16
+      - 🇭🇰 香港17
+      - 🇭🇰 香港18
+      - 🇭🇰 香港19
+      - 🇭🇰 香港20
+      - 🇭🇰 香港21
+      - 🇭🇰 香港22
+      - 🇭🇰 香港23
+      - 🇭🇰 香港24
+      - 🇭🇰 香港25
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾10
       - 🇯🇵 日本01
       - 🇯🇵 日本02
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - "🇯🇵 日本06"
-      - "🇯🇵 日本07"
-      - "🇯🇵 日本08"
-      - "🇯🇵 日本09"
-      - "🇯🇵 日本10"
-      - 🇹🇼 台湾google
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - 🇯🇵 日本11
+      - 🇯🇵 日本12
+      - 🇯🇵 日本13
+      - 🇯🇵 日本14
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本17
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇯🇵 日本20
+      - 🇯🇵 日本21
+      - 🇯🇵 日本22
+      - 🇯🇵 日本23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
+      - 🇯🇵 日本34
+      - 🇯🇵 日本35
+      - 🇯🇵 日本36
+      - 🇯🇵 日本37
+      - 🇯🇵 日本38
+      - 🇷🇺 俄罗斯01
+      - 🇷🇺 俄罗斯02
+      - 🇷🇺 俄罗斯03
+      - 🇷🇺 俄罗斯04
+      - 🇷🇺 俄罗斯05
+      - 🇷🇺 俄罗斯06
+      - 🇷🇺 俄罗斯07
+      - 🇷🇺 俄罗斯08
+      - 🇷🇺 俄罗斯09
+      - 🇷🇺 俄罗斯10
+      - 🇷🇺 俄罗斯11
+      - 🇷🇺 俄罗斯12
+      - 🇷🇺 俄罗斯13
   - name: 🌍 国际媒体
     type: select
     proxies:
@@ -205,32 +554,91 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港01
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾3
-      - 🇹🇼 台湾4
-      - 🇹🇼 台湾5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港10
+      - 🇭🇰 香港11
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港14
+      - 🇭🇰 香港15
+      - 🇭🇰 香港16
+      - 🇭🇰 香港17
+      - 🇭🇰 香港18
+      - 🇭🇰 香港19
+      - 🇭🇰 香港20
+      - 🇭🇰 香港21
+      - 🇭🇰 香港22
+      - 🇭🇰 香港23
+      - 🇭🇰 香港24
+      - 🇭🇰 香港25
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾10
       - 🇯🇵 日本01
       - 🇯🇵 日本02
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - "🇯🇵 日本06"
-      - "🇯🇵 日本07"
-      - "🇯🇵 日本08"
-      - "🇯🇵 日本09"
-      - "🇯🇵 日本10"
-      - 🇹🇼 台湾google
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - 🇯🇵 日本11
+      - 🇯🇵 日本12
+      - 🇯🇵 日本13
+      - 🇯🇵 日本14
+      - 🇯🇵 日本15
+      - 🇯🇵 日本16
+      - 🇯🇵 日本17
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇯🇵 日本20
+      - 🇯🇵 日本21
+      - 🇯🇵 日本22
+      - 🇯🇵 日本23
+      - 🇯🇵 日本24
+      - 🇯🇵 日本25
+      - 🇯🇵 日本26
+      - 🇯🇵 日本27
+      - 🇯🇵 日本28
+      - 🇯🇵 日本29
+      - 🇯🇵 日本30
+      - 🇯🇵 日本31
+      - 🇯🇵 日本32
+      - 🇯🇵 日本33
+      - 🇯🇵 日本34
+      - 🇯🇵 日本35
+      - 🇯🇵 日本36
+      - 🇯🇵 日本37
+      - 🇯🇵 日本38
+      - 🇷🇺 俄罗斯01
+      - 🇷🇺 俄罗斯02
+      - 🇷🇺 俄罗斯03
+      - 🇷🇺 俄罗斯04
+      - 🇷🇺 俄罗斯05
+      - 🇷🇺 俄罗斯06
+      - 🇷🇺 俄罗斯07
+      - 🇷🇺 俄罗斯08
+      - 🇷🇺 俄罗斯09
+      - 🇷🇺 俄罗斯10
+      - 🇷🇺 俄罗斯11
+      - 🇷🇺 俄罗斯12
+      - 🇷🇺 俄罗斯13
   - name: 🛑 全球拦截
     type: select
     proxies:
