@@ -1,20 +1,20 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 🇭🇰 香港01, server: xixi-gzyd.ddns-only.xyz, port: 14438, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, protocolparam: 196354:dskyrpqtki, obfs: tls1.2_ticket_auth, obfsparam: 12af2196354.microsoft.com}
-  - {name: 🇭🇰 香港02, server: xixi-shlt.ddns-only.xyz, port: 14468, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, protocolparam: 196354:dskyrpqtki, obfs: tls1.2_ticket_auth, obfsparam: 12af2196354.microsoft.com}
-  - {name: 🇭🇰 香港03, server: xixi-shlt.ddns-only.xyz, port: 14436, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, protocolparam: 196354:dskyrpqtki, obfs: tls1.2_ticket_auth, obfsparam: 12af2196354.microsoft.com}
-  - {name: 🇭🇰 香港04, server: xixi-gzyd.ddns-only.xyz, port: 14132, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, protocolparam: 196354:dskyrpqtki, obfs: tls1.2_ticket_auth, obfsparam: 12af2196354.microsoft.com}
-  - {name: 🇭🇰 香港05, server: xixi-qdyd.ddns-only.xyz, port: 14434, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, protocolparam: 196354:dskyrpqtki, obfs: tls1.2_ticket_auth, obfsparam: 12af2196354.microsoft.com}
-  - {name: 🇯🇵 日本01, server: zhilian-sg-z.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: 🇯🇵 日本02, server: zhilian-jp-u.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: 🇯🇵 日本03, server: zhilian-jp-v.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: 🇯🇵 日本04, server: zhilian-ru-a.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
-  - {name: "🇯🇵 日本05", server: zhilian-ru-b.cn0.me, port: 443, type: trojan, password: 59359529-ddb1-3ad6-a953-612a875f6b0fcmynw, sni: paydiu.com}
+  - {name: 🇭🇰 香港01, server: xixi-shlt.ddns-only.xyz, port: 14407, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174241.ddns-only.xyz}}
+  - {name: 🇭🇰 香港02, server: xixi-shlt.ddns-only.xyz, port: 14409, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174243.ddns-only.xyz}}
+  - {name: 🇭🇰 香港03, server: xixi-shlt.ddns-only.xyz, port: 14465, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo01.ddns-only.xyz}}
+  - {name: 🇭🇰 香港04, server: xixi-gzyd.ddns-only.xyz, port: 14467, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo02.ddns-only.xyz}}
+  - {name: 🇭🇰 香港05, server: xixi-gzyd.ddns-only.xyz, port: 14427, type: vmess, uuid: c518826d-6d2c-3612-9017-5590ca0b40df, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-3805.ddns-only.xyz}}
+  - {name: 🇯🇵 日本01, server: jp.1.bianhuabai.pw, port: 80, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp.1.bianhuabai.pw}}
+  - {name: 🇯🇵 日本02, server: jp.2.bianhuabai.pw, port: 80, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp.2.bianhuabai.pw}}
+  - {name: 🇯🇵 日本03, server: jp.3.bianhuabai.pw, port: 80, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp.3.bianhuabai.pw}}
+  - {name: 🇯🇵 日本04, server: jp.4.bianhuabai.pw, port: 80, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp.4.bianhuabai.pw}}
+  - {name: 🇯🇵 日本05, server: jp.5.bianhuabai.pw, port: 80, type: vmess, uuid: 8eba4948-1850-394b-b29a-0345f52a0857, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp.5.bianhuabai.pw}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
