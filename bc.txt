@@ -662,12 +662,9 @@ CIBN汽车,http://v.iam7.top/iptv/cibn/?id=1108&code=QiChe
 NOW新闻,http://77.83.242.11/hk168.php?id=16&xl=2
 有线新闻，http://liveicm.utvlive.top/live/4cc64fb362004798b222978935590b2c/1980ba5c365e4f049f99aced1277303c-3.m3u8
 有线新闻,http://77.83.242.11/hk168.php?id=31&xl=2
-地理野生,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDM4
-天映频道,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0NDE_
-东森新闻,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGRzeHdfb3R0
-星卫HD电影台,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4NA__
-HBO,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGhib19vdHQ_
-美亚电影台,http://191.101.44.238/tV.php?aitangyuanTV&play&vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNzU_
+综合娱乐台,http://liveima.utvlive.top/livehls/MOB-CN/index.m3u8
+有线新闻台,http://liveima.utvlive.top/livehls/MOB-SCC/index.m3u8
+财经资讯台,http://liveima.utvlive.top/livehls/MOB-NGW//index.m3u8
 八大精彩台,http://hdtv.ub1818.com/ublive/index_1.m3u8
 民视第一台,http://hdtv.ub1818.com/ublive/index_2.m3u8
 民视台湾台,http://hdtv.ub1818.com/ublive/index_3.m3u8
