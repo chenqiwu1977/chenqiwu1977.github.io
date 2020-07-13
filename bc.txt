@@ -659,6 +659,7 @@ CIBN怡家,http://v.iam7.top/iptv/cibn/?id=1108&code=JiaoYu
 CIBN新知,http://v.iam7.top/iptv/cibn/?id=1108&code=FengShang
 CIBN汽车,http://v.iam7.top/iptv/cibn/?id=1108&code=QiChe
 港    台,#genre#
+有线新闻,http://danielwu.gz01.bdysite.com/iptv/?id=yxxw
 综合娱乐台,http://liveima.utvlive.top/livehls/MOB-CN/index.m3u8
 有线新闻台,http://liveima.utvlive.top/livehls/MOB-SCC/index.m3u8
 财经资讯台,http://liveima.utvlive.top/livehls/MOB-NGW//index.m3u8
