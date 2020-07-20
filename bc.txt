@@ -659,8 +659,6 @@ CIBN怡家,http://v.iam7.top/iptv/cibn/?id=1108&code=JiaoYu
 CIBN新知,http://v.iam7.top/iptv/cibn/?id=1108&code=FengShang
 CIBN汽车,http://v.iam7.top/iptv/cibn/?id=1108&code=QiChe
 谷    豆,#genre#
-http://tkhz.vip/gd.php?id=yueyuHD_7000
-
 
 广东体育HD,http://tkhz.vip/gd.php?id=gdsportsHD_7000
 汕头一套HD,http://tkhz.vip/gd.php?id=shantouyitaogaoqing_4500
@@ -704,6 +702,7 @@ CCTV-8HD,http://tkhz.vip/gd.php?id=CCTV8HD_7000
 CCTV-9HD,http://tkhz.vip/gd.php?id=CCTV9HD_7000
 CCTV-10HD,http://tkhz.vip/gd.php?id=CCTV10HD_7000
 CCTV-12HD,http://tkhz.vip/gd.php?id=CCTV12HD_7000
+CCTV-13HD,http://tkhz.vip/gd.php?id=yueyuHD_7000
 CCTV-14HD,http://tkhz.vip/gd.php?id=CCTV14HD_7000
 CHC高清电影HD,http://tkhz.vip/gd.php?id=CHCHD_7000
 广东卫视HD,http://tkhz.vip/gd.php?id=guangdongHD_7000
