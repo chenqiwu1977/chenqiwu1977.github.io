@@ -5,30 +5,38 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 🇭🇰 香港1, server: xixi-gzyd.ddns-only.xyz, port: 14461, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-8.ddns-only.xyz}}
-  - {name: 🇭🇰 香港2, server: xixi-shlt.ddns-only.xyz, port: 14411, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174245.ddns-only.xyz}}
-  - {name: 🇭🇰 香港3, server: xixi-gzyd.ddns-only.xyz, port: 14609, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hinet-148.ddns-only.xyz}}
-  - {name: 🇭🇰 香港4, server: xixi-gzyd.ddns-only.xyz, port: 14425, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hkt-2020224633.ddns-only.xyz}}
-  - {name: 🇭🇰 香港5, server: xixi-shlt.ddns-only.xyz, port: 14407, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174241.ddns-only.xyz}}
-  - {name: 🇭🇰 香港6, server: xixi-shlt.ddns-only.xyz, port: 14409, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174243.ddns-only.xyz}}
-  - {name: 🇭🇰 香港7, server: xixi-shlt.ddns-only.xyz, port: 14465, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo01.ddns-only.xyz}}
-  - {name: 🇭🇰 香港8, server: xixi-gzyd.ddns-only.xyz, port: 14467, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo02.ddns-only.xyz}}
-  - {name: 🇭🇰 香港9, server: xixi-gzyd.ddns-only.xyz, port: 14427, type: vmess, uuid: 9d7c6aa9-da06-305f-9f26-155266972e3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-3805.ddns-only.xyz}}
-  - {name: 🇯🇵 日本1, server: 69aeec29220674d7e1c1963f9f2355ee.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: s186.haierzykt.top}, headers: {Host: s186.haierzykt.top}}
-  - {name: 🇯🇵 日本2, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas214.tianyue888.com.cn}, headers: {Host: gagas214.tianyue888.com.cn}}
-  - {name: 🇯🇵 日本3, server: 69aeec29220674d7e1c1963f9f2355ee.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas42.haierzykt.top}, headers: {Host: gagas42.haierzykt.top}}
-  - {name: 🇯🇵 日本4, server: 69aeec29220674d7e1c1963f9f2355ee.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: s170.haierzykt.top}, headers: {Host: s170.haierzykt.top}}
-  - {name: 🇯🇵 日本5, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas347.tianyue888.com.cn}, headers: {Host: gagas347.tianyue888.com.cn}}
-  - {name: 🇰🇷 韩国1, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: s57.tianyue888.com.cn}, headers: {Host: s57.tianyue888.com.cn}}
-  - {name: 🇰🇷 韩国2, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: supers20.tianyue888.com.cn}, headers: {Host: supers20.tianyue888.com.cn}}
-  - {name: 🇰🇷 韩国3, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas222.tianyue888.com.cn}, headers: {Host: gagas222.tianyue888.com.cn}}
-  - {name: 🇰🇷 韩国4, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: s52.tianyue888.com.cn}, headers: {Host: s52.tianyue888.com.cn}}
-  - {name: 🇰🇷 韩国5, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: 9cde748c-0f58-3834-8de7-bf35ff409865, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /panel, ws-headers: {Host: s54.tianyue888.com.cn}, headers: {Host: s54.tianyue888.com.cn}}
+  - {name: 🇹🇼 台湾1, server: xixi-gzyd.ddns-only.xyz, port: 14606, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hinet-146.ddns-only.xyz}}
+  - {name: 🇹🇼 台湾2, server: xixi-gzyd.ddns-only.xyz, port: 14605, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hinet-145.ddns-only.xyz}}
+  - {name: 🇹🇼 台湾3, server: hinet-143.ddns-only.xyz, port: 14602, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hinet-143.ddns-only.xyz}}
+  - {name: 🇹🇼 台湾4, server: hinet-142.ddns-only.xyz, port: 14601, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hinet-142.ddns-only.xyz}}
+  - {name: 🇭🇰 香港1, server: xixi-gzyd.ddns-only.xyz, port: 14421, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hkt-2020221701.ddns-only.xyz}}
+  - {name: 🇭🇰 香港2, server: xixi-qdyd.ddns-only.xyz, port: 14423, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: hkt-2020221763.ddns-only.xyz}}
+  - {name: 🇭🇰 香港3, server: xixi-gzyd.ddns-only.xyz, port: 14439, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-4.ddns-only.xyz}}
+  - {name: 🇭🇰 香港4, server: xixi-gzyd.ddns-only.xyz, port: 14457, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-6.ddns-only.xyz}}
+  - {name: 🇭🇰 香港5, server: xixi-qdyd.ddns-only.xyz, port: 14435, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-2.ddns-only.xyz}}
+  - {name: 🇭🇰 香港6, server: xixi-shlt.ddns-only.xyz, port: 14437, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-3.ddns-only.xyz}}
+  - {name: 🇭🇰 香港7, server: yfhkt01.ddns-only.xyz, port: 14475, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: yfhkt01.ddns-only.xyz}}
+  - {name: 🇭🇰 香港8, server: xixi-shlt.ddns-only.xyz, port: 14433, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-1.ddns-only.xyz}}
+  - {name: 🇭🇰 香港9, server: xixi-shlt.ddns-only.xyz, port: 14455, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-5.ddns-only.xyz}}
+  - {name: 🇭🇰 香港10, server: pro-shlt.ddns-only.xyz, port: 14459, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: azure-b2s-7.ddns-only.xyz}}
+  - {name: 🇯🇵 日本1, server: xixi-shlt.ddns-only.xyz, port: 14463, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: az-jp01.ddns-only.xyz}}
+  - {name: 🇯🇵 日本2, server: xixi-shlt.ddns-only.xyz, port: 14465, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo01.ddns-only.xyz}}
+  - {name: 🇯🇵 日本3, server: xixi-gzyd.ddns-only.xyz, port: 14467, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: jp-gmo02.ddns-only.xyz}}
+  - {name: 🇺🇸 美国1, server: xixi-gzyd.ddns-only.xyz, port: 14427, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-3805.ddns-only.xyz}}
+  - {name: 🇺🇸 美国2, server: xixi-shlt.ddns-only.xyz, port: 14429, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-3808.ddns-only.xyz}}
+  - {name: 🇺🇸 美国3, server: xixi-gzyd.ddns-only.xyz, port: 14479, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-4914.ddns-only.xyz}}
+  - {name: 🇺🇸 美国4, server: gia-4915.ddns-only.xyz, port: 14481, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: gia-4914.ddns-only.xyz}}
+  - {name: 🇷🇺 俄罗斯1, server: xixi-shlt.ddns-only.xyz, port: 14407, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174241.ddns-only.xyz}}
+  - {name: 🇷🇺 俄罗斯2, server: xixi-shlt.ddns-only.xyz, port: 14409, type: vmess, uuid: ff366f1a-a1ca-30b6-b555-53122f1e9590, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yaboviss, ws-headers: {Host: ru-174243.ddns-only.xyz}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🇹🇼 台湾1
+      - 🇹🇼 台湾2
+      - 🇹🇼 台湾3
+      - 🇹🇼 台湾4
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -38,21 +46,25 @@ Proxy Group:
       - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇭🇰 香港9
+      - 🇭🇰 香港10
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇯🇵 日本5
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
-      - 🇰🇷 韩国5
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯2
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
+      - 🇹🇼 台湾1
+      - 🇹🇼 台湾2
+      - 🇹🇼 台湾3
+      - 🇹🇼 台湾4
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -62,19 +74,23 @@ Proxy Group:
       - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇭🇰 香港9
+      - 🇭🇰 香港10
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇯🇵 日本5
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
-      - 🇰🇷 韩国5
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯2
   - name: 📺 港台 TV
     type: select
     proxies:
+      - 🇹🇼 台湾1
+      - 🇹🇼 台湾2
+      - 🇹🇼 台湾3
+      - 🇹🇼 台湾4
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -84,21 +100,25 @@ Proxy Group:
       - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇭🇰 香港9
+      - 🇭🇰 香港10
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇯🇵 日本5
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
-      - 🇰🇷 韩国5
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯2
   - name: 📻 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇹🇼 台湾1
+      - 🇹🇼 台湾2
+      - 🇹🇼 台湾3
+      - 🇹🇼 台湾4
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -108,21 +128,25 @@ Proxy Group:
       - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇭🇰 香港9
+      - 🇭🇰 香港10
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇯🇵 日本5
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
-      - 🇰🇷 韩国5
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯2
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇹🇼 台湾1
+      - 🇹🇼 台湾2
+      - 🇹🇼 台湾3
+      - 🇹🇼 台湾4
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -132,21 +156,25 @@ Proxy Group:
       - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇭🇰 香港9
+      - 🇭🇰 香港10
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇯🇵 日本5
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
-      - 🇰🇷 韩国5
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯2
   - name: 🌍 国际媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇹🇼 台湾1
+      - 🇹🇼 台湾2
+      - 🇹🇼 台湾3
+      - 🇹🇼 台湾4
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -156,16 +184,16 @@ Proxy Group:
       - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇭🇰 香港9
+      - 🇭🇰 香港10
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇯🇵 日本5
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
-      - 🇰🇷 韩国5
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯2
   - name: 🛑 全球拦截
     type: select
     proxies:
